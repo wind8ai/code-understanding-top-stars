@@ -18,13 +18,14 @@
 06. [openapi-generator — 22k ⭐](#6-openapi-generator-22k-)
 07. [tree-sitter — 19k ⭐](#7-tree-sitter-19k-)
 08. [swagger-codegen — 17k ⭐](#8-swagger-codegen-17k-)
-09. [semgrep — 11k ⭐](#9-semgrep-11k-)
-10. [oclif — 9.5k ⭐](#10-oclif-95k-)
-11. [codeql — 8k ⭐](#11-codeql-8k-)
-12. [joern — 3.2k ⭐](#12-joern-32k-)
-13. [OpenDeepWiki — 3.2k ⭐](#13-opendeepwiki-32k-)
-14. [smart-doc — 1.8k ⭐](#14-smart-doc-18k-)
-15. [Redocly CLI — 1.5k ⭐](#15-redocly-cli-15k-)
+09. [code-review-graph — 16.9k ⭐](#9-code-review-graph-169k-)
+10. [semgrep — 11k ⭐](#10-semgrep-11k-)
+11. [oclif — 9.5k ⭐](#11-oclif-95k-)
+12. [codeql — 8k ⭐](#12-codeql-8k-)
+13. [joern — 3.2k ⭐](#13-joern-32k-)
+14. [OpenDeepWiki — 3.2k ⭐](#14-opendeepwiki-32k-)
+15. [smart-doc — 1.8k ⭐](#15-smart-doc-18k-)
+16. [Redocly CLI — 1.5k ⭐](#16-redocly-cli-15k-)
 
 ---
 
@@ -124,7 +125,19 @@
 
 ---
 
-## 9. semgrep (11k ⭐)
+## 9. code-review-graph (16.9k ⭐)
+
+**🔗** https://github.com/tirth8205/code-review-graph  
+**🍴** Fork 1.8k | **🔄** Updated May 2026  
+**👤** Tirth Patel — 代码图谱与 Token 优化领域开发者
+
+> 停止烧 Token，开始智能审查。为 AI 编码工具构建本地代码知识图谱——用 Tree-sitter 解析仓库为 AST，存储为节点（函数/类/import）与边（调用/继承/测试覆盖）的图结构，通过 MCP 协议向 AI 助手提供精确上下文，使其只读取真正相关的代码。核心能力：**爆炸半径分析**——文件变更时追踪每个调用者、依赖方和相关测试，AI 只读这些文件而非扫描全项目。增量更新极快（2900 文件项目 <2秒），大型 Monorepo 中 27,700+ 文件被排除在审查上下文外，实际只读约 15 个文件。实测代码审查省 6.8× Token，日常编码任务省高达 49× Token。支持 Claude Code/Codex/Cursor/Gemini CLI/Kiro/GitHub Copilot 等平台，一条命令自动检测并配置所有支持的 AI 工具。
+
+**匹配能力：** 📊 代码知识图谱 · 🔍 变更影响分析 · ⚡ Token 优化 · 🤖 MCP/多平台集成
+
+---
+
+## 10. semgrep (11k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
 **🍴** Fork 900+ | **🔄** Updated May 2026  
@@ -136,7 +149,7 @@
 
 ---
 
-## 10. oclif (9.5k ⭐)
+## 11. oclif (9.5k ⭐)
 
 **🔗** https://github.com/oclif/oclif  
 **🍴** Fork 352 | **🔄** Updated May 17, 2026  
@@ -148,7 +161,7 @@
 
 ---
 
-## 11. codeql (8k ⭐)
+## 12. codeql (8k ⭐)
 
 **🔗** https://github.com/github/codeql  
 **🍴** Fork 1.5k+ | **🔄** Updated May 2026  
@@ -160,7 +173,7 @@
 
 ---
 
-## 12. joern (3.2k ⭐)
+## 13. joern (3.2k ⭐)
 
 **🔗** https://github.com/joernio/joern  
 **🍴** Fork 411 | **🔄** Updated May 2026  
@@ -172,7 +185,7 @@
 
 ---
 
-## 13. OpenDeepWiki (3.2k ⭐)
+## 14. OpenDeepWiki (3.2k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Fork 415 | **🔄** Updated May 2026  
@@ -184,7 +197,7 @@
 
 ---
 
-## 14. smart-doc (1.8k ⭐)
+## 15. smart-doc (1.8k ⭐)
 
 **🔗** https://github.com/smart-doc-group/smart-doc  
 **🍴** Fork 300+ | **🔄** Updated May 2026  
@@ -196,7 +209,7 @@
 
 ---
 
-## 15. Redocly CLI (1.5k ⭐)
+## 16. Redocly CLI (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
 **🍴** Fork 217 | **🔄** Updated May 20, 2026  
@@ -214,9 +227,10 @@
 - [graphify](#1-graphify-45k-) — 代码/文档 → 可查询知识图谱 + 调用流
 - [GitNexus](#2-gitnexus-39k-) — CLI+MCP 代码神经系统，Agent 集成
 - [tree-sitter](#7-tree-sitter-19k-) — 底层解析基石，200+ 语言 AST/CST
-- [joern](#12-joern-32k-) — 代码属性图（CPG）分析平台
-- [codeql](#11-codeql-8k-) — 代码查询语言，GitHub 官方
-- [semgrep](#9-semgrep-11k-) — 语义 grep，多语言模式匹配
+- [code-review-graph](#9-code-review-graph-169k-) — 本地代码图谱，爆炸半径分析
+- [joern](#13-joern-32k-) — 代码属性图（CPG）分析平台
+- [codeql](#12-codeql-8k-) — 代码查询语言，GitHub 官方
+- [semgrep](#10-semgrep-11k-) — 语义 grep，多语言模式匹配
 
 ### 📝 API 提取 & 文档生成
 - [smart-doc](#13-smart-doc-18k-) — Java 零侵入 API 文档，源码分析
