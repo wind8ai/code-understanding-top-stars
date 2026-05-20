@@ -16,14 +16,15 @@
 04. [swagger-ui — 27k ⭐](#4-swagger-ui-27k-)
 05. [google/python-fire — 27k ⭐](#5-googlepython-fire-27k-)
 06. [openapi-generator — 22k ⭐](#6-openapi-generator-22k-)
-07. [swagger-codegen — 17k ⭐](#7-swagger-codegen-17k-)
-08. [semgrep — 11k ⭐](#8-semgrep-11k-)
-09. [oclif — 9.5k ⭐](#9-oclif-95k-)
-10. [codeql — 8k ⭐](#10-codeql-8k-)
-11. [joern — 3.2k ⭐](#11-joern-32k-)
-12. [OpenDeepWiki — 3.2k ⭐](#12-opendeepwiki-32k-)
-13. [smart-doc — 1.8k ⭐](#13-smart-doc-18k-)
-14. [Redocly CLI — 1.5k ⭐](#14-redocly-cli-15k-)
+07. [tree-sitter — 19k ⭐](#7-tree-sitter-19k-)
+08. [swagger-codegen — 17k ⭐](#8-swagger-codegen-17k-)
+09. [semgrep — 11k ⭐](#9-semgrep-11k-)
+10. [oclif — 9.5k ⭐](#10-oclif-95k-)
+11. [codeql — 8k ⭐](#11-codeql-8k-)
+12. [joern — 3.2k ⭐](#12-joern-32k-)
+13. [OpenDeepWiki — 3.2k ⭐](#13-opendeepwiki-32k-)
+14. [smart-doc — 1.8k ⭐](#14-smart-doc-18k-)
+15. [Redocly CLI — 1.5k ⭐](#15-redocly-cli-15k-)
 
 ---
 
@@ -99,7 +100,19 @@
 
 ---
 
-## 7. swagger-codegen (17k ⭐)
+## 7. tree-sitter (19k ⭐)
+
+**🔗** https://github.com/tree-sitter/tree-sitter  
+**🍴** Fork 1.5k+ | **🔄** Updated May 2026  
+**👤** Tree-sitter 社区 — 由 Max Brunsfeld（前 GitHub Atom 团队）创建，现为独立开源项目
+
+> 增量解析器生成工具与解析库——几乎所有现代代码分析工具的底层基石。为源文件构建具体语法树（CST），并在源文件编辑时高效增量更新。设计目标：通用（能解析任意编程语言，200+ 语言 grammar 可用）、极快（每次击键都能解析）、鲁棒（即使存在语法错误仍能产出有用结果）、零依赖（纯 C 运行时，可嵌入任何应用）。提供 Rust/Wasm/Node/Python 等多语言绑定和 CLI 工具。GitNexus、graphify、Aider、Codebase-Memory 等上层工具均依赖 tree-sitter 做底层解析。是构建自定义代码分析管道的首选基础设施。
+
+**匹配能力：** 🧱 底层解析基石 · 📊 AST/CST 构建 · 🔍 200+ 语言支持 · ⚡ 增量解析
+
+---
+
+## 8. swagger-codegen (17k ⭐)
 
 **🔗** https://github.com/swagger-api/swagger-codegen  
 **🍴** Fork 6k+ | **🔄** Updated May 2026  
@@ -111,7 +124,7 @@
 
 ---
 
-## 8. semgrep (11k ⭐)
+## 9. semgrep (11k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
 **🍴** Fork 900+ | **🔄** Updated May 2026  
@@ -123,7 +136,7 @@
 
 ---
 
-## 9. oclif (9.5k ⭐)
+## 10. oclif (9.5k ⭐)
 
 **🔗** https://github.com/oclif/oclif  
 **🍴** Fork 352 | **🔄** Updated May 17, 2026  
@@ -135,7 +148,7 @@
 
 ---
 
-## 10. codeql (8k ⭐)
+## 11. codeql (8k ⭐)
 
 **🔗** https://github.com/github/codeql  
 **🍴** Fork 1.5k+ | **🔄** Updated May 2026  
@@ -147,7 +160,7 @@
 
 ---
 
-## 11. joern (3.2k ⭐)
+## 12. joern (3.2k ⭐)
 
 **🔗** https://github.com/joernio/joern  
 **🍴** Fork 411 | **🔄** Updated May 2026  
@@ -159,7 +172,7 @@
 
 ---
 
-## 12. OpenDeepWiki (3.2k ⭐)
+## 13. OpenDeepWiki (3.2k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Fork 415 | **🔄** Updated May 2026  
@@ -171,7 +184,7 @@
 
 ---
 
-## 13. smart-doc (1.8k ⭐)
+## 14. smart-doc (1.8k ⭐)
 
 **🔗** https://github.com/smart-doc-group/smart-doc  
 **🍴** Fork 300+ | **🔄** Updated May 2026  
@@ -183,7 +196,7 @@
 
 ---
 
-## 14. Redocly CLI (1.5k ⭐)
+## 15. Redocly CLI (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
 **🍴** Fork 217 | **🔄** Updated May 20, 2026  
@@ -200,9 +213,10 @@
 ### 🏗️ 代码图谱 & 架构分析
 - [graphify](#1-graphify-45k-) — 代码/文档 → 可查询知识图谱 + 调用流
 - [GitNexus](#2-gitnexus-39k-) — CLI+MCP 代码神经系统，Agent 集成
-- [joern](#11-joern-32k-) — 代码属性图（CPG）分析平台
-- [codeql](#10-codeql-8k-) — 代码查询语言，GitHub 官方
-- [semgrep](#8-semgrep-11k-) — 语义 grep，多语言模式匹配
+- [tree-sitter](#7-tree-sitter-19k-) — 底层解析基石，200+ 语言 AST/CST
+- [joern](#12-joern-32k-) — 代码属性图（CPG）分析平台
+- [codeql](#11-codeql-8k-) — 代码查询语言，GitHub 官方
+- [semgrep](#9-semgrep-11k-) — 语义 grep，多语言模式匹配
 
 ### 📝 API 提取 & 文档生成
 - [smart-doc](#13-smart-doc-18k-) — Java 零侵入 API 文档，源码分析

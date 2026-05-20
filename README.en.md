@@ -16,14 +16,15 @@
 04. [swagger-ui — 27k ⭐](#4-swagger-ui-27k-)
 05. [google/python-fire — 27k ⭐](#5-googlepython-fire-27k-)
 06. [openapi-generator — 22k ⭐](#6-openapi-generator-22k-)
-07. [swagger-codegen — 17k ⭐](#7-swagger-codegen-17k-)
-08. [semgrep — 11k ⭐](#8-semgrep-11k-)
-09. [oclif — 9.5k ⭐](#9-oclif-95k-)
-10. [codeql — 8k ⭐](#10-codeql-8k-)
-11. [joern — 3.2k ⭐](#11-joern-32k-)
-12. [OpenDeepWiki — 3.2k ⭐](#12-opendeepwiki-32k-)
-13. [smart-doc — 1.8k ⭐](#13-smart-doc-18k-)
-14. [Redocly CLI — 1.5k ⭐](#14-redocly-cli-15k-)
+07. [tree-sitter — 19k ⭐](#7-tree-sitter-19k-)
+08. [swagger-codegen — 17k ⭐](#8-swagger-codegen-17k-)
+09. [semgrep — 11k ⭐](#9-semgrep-11k-)
+10. [oclif — 9.5k ⭐](#10-oclif-95k-)
+11. [codeql — 8k ⭐](#11-codeql-8k-)
+12. [joern — 3.2k ⭐](#12-joern-32k-)
+13. [OpenDeepWiki — 3.2k ⭐](#13-opendeepwiki-32k-)
+14. [smart-doc — 1.8k ⭐](#14-smart-doc-18k-)
+15. [Redocly CLI — 1.5k ⭐](#15-redocly-cli-15k-)
 
 ---
 
@@ -99,7 +100,19 @@
 
 ---
 
-## 7. swagger-codegen (17k ⭐)
+## 7. tree-sitter (19k ⭐)
+
+**🔗** https://github.com/tree-sitter/tree-sitter  
+**🍴** Fork 1.5k+ | **🔄** Updated May 2026  
+**👤** Tree-sitter Community — Created by Max Brunsfeld (former GitHub Atom team), now an independent open-source project
+
+> Incremental parser generator tool and parsing library — the foundational infrastructure beneath almost all modern code analysis tools. Builds concrete syntax trees (CST) for source files and efficiently updates them incrementally as files are edited. Design goals: general (parse any programming language, 200+ language grammars available), fast (parse on every keystroke in a text editor), robust (useful results even with syntax errors), dependency-free (pure C runtime, embeddable in any application). Provides Rust/Wasm/Node/Python bindings and CLI tool. GitNexus, graphify, Aider, Codebase-Memory, and other higher-level tools all depend on tree-sitter for underlying parsing. The go-to foundation for building custom code analysis pipelines.
+
+**Capabilities:** 🧱 Foundational Parser · 📊 AST/CST Construction · 🔍 200+ Languages · ⚡ Incremental Parsing
+
+---
+
+## 8. swagger-codegen (17k ⭐)
 
 **🔗** https://github.com/swagger-api/swagger-codegen  
 **🍴** Fork 6k+ | **🔄** Updated May 2026  
@@ -111,7 +124,7 @@
 
 ---
 
-## 8. semgrep (11k ⭐)
+## 9. semgrep (11k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
 **🍴** Fork 900+ | **🔄** Updated May 2026  
@@ -123,7 +136,7 @@
 
 ---
 
-## 9. oclif (9.5k ⭐)
+## 10. oclif (9.5k ⭐)
 
 **🔗** https://github.com/oclif/oclif  
 **🍴** Fork 352 | **🔄** Updated May 17, 2026  
@@ -135,7 +148,7 @@
 
 ---
 
-## 10. codeql (8k ⭐)
+## 11. codeql (8k ⭐)
 
 **🔗** https://github.com/github/codeql  
 **🍴** Fork 1.5k+ | **🔄** Updated May 2026  
@@ -147,7 +160,7 @@
 
 ---
 
-## 11. joern (3.2k ⭐)
+## 12. joern (3.2k ⭐)
 
 **🔗** https://github.com/joernio/joern  
 **🍴** Fork 411 | **🔄** Updated May 2026  
@@ -159,7 +172,7 @@
 
 ---
 
-## 12. OpenDeepWiki (3.2k ⭐)
+## 13. OpenDeepWiki (3.2k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Fork 415 | **🔄** Updated May 2026  
@@ -171,7 +184,7 @@
 
 ---
 
-## 13. smart-doc (1.8k ⭐)
+## 14. smart-doc (1.8k ⭐)
 
 **🔗** https://github.com/smart-doc-group/smart-doc  
 **🍴** Fork 300+ | **🔄** Updated May 2026  
@@ -183,7 +196,7 @@
 
 ---
 
-## 14. Redocly CLI (1.5k ⭐)
+## 15. Redocly CLI (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
 **🍴** Fork 217 | **🔄** Updated May 20, 2026  
@@ -200,9 +213,10 @@
 ### 🏗️ Code Graph & Architecture Analysis
 - [graphify](#1-graphify-45k-) — Code/docs → queryable knowledge graph + call-flow
 - [GitNexus](#2-gitnexus-39k-) — CLI+MCP code nervous system, agent integration
-- [joern](#11-joern-32k-) — Code Property Graph (CPG) platform
-- [codeql](#10-codeql-8k-) — Code query language, by GitHub
-- [semgrep](#8-semgrep-11k-) — Semantic grep, multi-language pattern matching
+- [tree-sitter](#7-tree-sitter-19k-) — Foundational parser, 200+ language AST/CST
+- [joern](#12-joern-32k-) — Code Property Graph (CPG) platform
+- [codeql](#11-codeql-8k-) — Code query language, by GitHub
+- [semgrep](#9-semgrep-11k-) — Semantic grep, multi-language pattern matching
 
 ### 📝 API Extraction & Documentation
 - [smart-doc](#13-smart-doc-18k-) — Java zero-injection API docs, source analysis
