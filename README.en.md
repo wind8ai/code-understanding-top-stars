@@ -18,13 +18,14 @@
 06. [openapi-generator — 22k ⭐](#6-openapi-generator-22k-)
 07. [tree-sitter — 19k ⭐](#7-tree-sitter-19k-)
 08. [swagger-codegen — 17k ⭐](#8-swagger-codegen-17k-)
-09. [semgrep — 11k ⭐](#9-semgrep-11k-)
-10. [oclif — 9.5k ⭐](#10-oclif-95k-)
-11. [codeql — 8k ⭐](#11-codeql-8k-)
-12. [joern — 3.2k ⭐](#12-joern-32k-)
-13. [OpenDeepWiki — 3.2k ⭐](#13-opendeepwiki-32k-)
-14. [smart-doc — 1.8k ⭐](#14-smart-doc-18k-)
-15. [Redocly CLI — 1.5k ⭐](#15-redocly-cli-15k-)
+09. [code-review-graph — 16.9k ⭐](#9-code-review-graph-169k-)
+10. [semgrep — 11k ⭐](#10-semgrep-11k-)
+11. [oclif — 9.5k ⭐](#11-oclif-95k-)
+12. [codeql — 8k ⭐](#12-codeql-8k-)
+13. [joern — 3.2k ⭐](#13-joern-32k-)
+14. [OpenDeepWiki — 3.2k ⭐](#14-opendeepwiki-32k-)
+15. [smart-doc — 1.8k ⭐](#15-smart-doc-18k-)
+16. [Redocly CLI — 1.5k ⭐](#16-redocly-cli-15k-)
 
 ---
 
@@ -124,7 +125,19 @@
 
 ---
 
-## 9. semgrep (11k ⭐)
+## 9. code-review-graph (16.9k ⭐)
+
+**🔗** https://github.com/tirth8205/code-review-graph  
+**🍴** Fork 1.8k | **🔄** Updated May 2026  
+**👤** Tirth Patel — Code graph & token optimization developer
+
+> Stop burning tokens. Start reviewing smarter. Builds a local code knowledge graph for AI coding tools — parses your repo into an AST with Tree-sitter, stores it as a graph of nodes (functions, classes, imports) and edges (calls, inheritance, test coverage), then serves precise context to AI assistants via MCP so they read only what matters. Core capability: **blast radius analysis** — when a file changes, traces every caller, dependent, and test that could be affected. AI reads only these files instead of scanning the whole project. Incremental updates are extremely fast (2,900-file project re-indexes in <2 seconds). In large monorepos, 27,700+ files are excluded from review context, with only ~15 files actually read. Measured results: 6.8× fewer tokens on code reviews, up to 49× fewer on daily coding tasks. Supports Claude Code/Codex/Cursor/Gemini CLI/Kiro/GitHub Copilot and more — one command auto-detects and configures all supported platforms.
+
+**Capabilities:** 📊 Code Knowledge Graph · 🔍 Blast Radius Analysis · ⚡ Token Optimization · 🤖 MCP/Multi-platform
+
+---
+
+## 10. semgrep (11k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
 **🍴** Fork 900+ | **🔄** Updated May 2026  
@@ -136,7 +149,7 @@
 
 ---
 
-## 10. oclif (9.5k ⭐)
+## 11. oclif (9.5k ⭐)
 
 **🔗** https://github.com/oclif/oclif  
 **🍴** Fork 352 | **🔄** Updated May 17, 2026  
@@ -148,7 +161,7 @@
 
 ---
 
-## 11. codeql (8k ⭐)
+## 12. codeql (8k ⭐)
 
 **🔗** https://github.com/github/codeql  
 **🍴** Fork 1.5k+ | **🔄** Updated May 2026  
@@ -160,7 +173,7 @@
 
 ---
 
-## 12. joern (3.2k ⭐)
+## 13. joern (3.2k ⭐)
 
 **🔗** https://github.com/joernio/joern  
 **🍴** Fork 411 | **🔄** Updated May 2026  
@@ -172,7 +185,7 @@
 
 ---
 
-## 13. OpenDeepWiki (3.2k ⭐)
+## 14. OpenDeepWiki (3.2k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Fork 415 | **🔄** Updated May 2026  
@@ -184,7 +197,7 @@
 
 ---
 
-## 14. smart-doc (1.8k ⭐)
+## 15. smart-doc (1.8k ⭐)
 
 **🔗** https://github.com/smart-doc-group/smart-doc  
 **🍴** Fork 300+ | **🔄** Updated May 2026  
@@ -196,7 +209,7 @@
 
 ---
 
-## 15. Redocly CLI (1.5k ⭐)
+## 16. Redocly CLI (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
 **🍴** Fork 217 | **🔄** Updated May 20, 2026  
@@ -214,9 +227,10 @@
 - [graphify](#1-graphify-45k-) — Code/docs → queryable knowledge graph + call-flow
 - [GitNexus](#2-gitnexus-39k-) — CLI+MCP code nervous system, agent integration
 - [tree-sitter](#7-tree-sitter-19k-) — Foundational parser, 200+ language AST/CST
-- [joern](#12-joern-32k-) — Code Property Graph (CPG) platform
-- [codeql](#11-codeql-8k-) — Code query language, by GitHub
-- [semgrep](#9-semgrep-11k-) — Semantic grep, multi-language pattern matching
+- [code-review-graph](#9-code-review-graph-169k-) — Local code graph, blast radius analysis
+- [joern](#13-joern-32k-) — Code Property Graph (CPG) platform
+- [codeql](#12-codeql-8k-) — Code query language, by GitHub
+- [semgrep](#10-semgrep-11k-) — Semantic grep, multi-language pattern matching
 
 ### 📝 API Extraction & Documentation
 - [smart-doc](#13-smart-doc-18k-) — Java zero-injection API docs, source analysis
