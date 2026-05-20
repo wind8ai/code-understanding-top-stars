@@ -256,7 +256,6 @@
 | [archguard/archguard](https://github.com/archguard/archguard) | 666 | 架构治理工作台，容器/组件/代码级分析 |
 | [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) | 436 | API → CLI 模式库（Node+Commander） |
 | [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 264 | 280 个 AI Agent 多角度代码审计 |
-| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | — | Claude Code 本地代码知识图谱 |
 | [tangcent/apilot](https://github.com/tangcent/apilot) | 3 | 多语言 API 端点扫描 → Markdown/cURL/Postman |
 | [lucianfialho/spec2cli](https://github.com/lucianfialho/spec2cli) | 16 | OpenAPI Spec → CLI，零代码生成 |
 

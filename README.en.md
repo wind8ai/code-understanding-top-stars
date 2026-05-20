@@ -256,7 +256,6 @@
 | [archguard/archguard](https://github.com/archguard/archguard) | 666 | Architecture governance workbench |
 | [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) | 436 | API → CLI patterns (Node+Commander) |
 | [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 264 | 280 AI agents for multi-lens code audit |
-| [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph) | — | Local code knowledge graph for Claude Code |
 | [tangcent/apilot](https://github.com/tangcent/apilot) | 3 | Multi-language API endpoint scanner |
 | [lucianfialho/spec2cli](https://github.com/lucianfialho/spec2cli) | 16 | OpenAPI Spec → CLI, zero code generation |
 
