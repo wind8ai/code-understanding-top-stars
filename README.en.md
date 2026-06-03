@@ -1,323 +1,323 @@
-# codebase-analysis
+# code-understanding-top-stars
 
 [中文](./README.md) | **English**
 
-> Curated Tools for Full Codebase Analysis — Architecture · API Extraction · CLI Conversion · Module Decomposition  
+> Curated Code Understanding Tools — Architecture Mapping · API Extraction · CLI Conversion · Module Decomposition  
 > Source: wind8ai Stars Lists  
-> Updated: 2026-05-27  
+> Fetched: 2026-06-03  
 
 ---
 
 ## Contents
 
-01. [context7 — 56.2k ⭐](#1-context7-562k-)
-02. [graphify — 54.7k ⭐](#2-graphify-547k-)
-03. [CLI-Anything — 40.8k ⭐](#3-cli-anything-408k-)
-04. [GitNexus — 40.5k ⭐](#4-gitnexus-405k-)
-05. [codegraph — 29.3k ⭐](#5-codegraph-293k-)
+01. [graphify — 58.7k ⭐](#1-graphify-587k-)
+02. [context7 — 56.6k ⭐](#2-context7-566k-)
+03. [CLI-Anything — 41.9k ⭐](#3-cli-anything-419k-)
+04. [GitNexus — 41.2k ⭐](#4-gitnexus-412k-)
+05. [codegraph — 38.8k ⭐](#5-codegraph-388k-)
 06. [swagger-ui — 28.8k ⭐](#6-swagger-ui-288k-)
 07. [google/python-fire — 28.2k ⭐](#7-googlepython-fire-282k-)
 08. [openapi-generator — 26.3k ⭐](#8-openapi-generator-263k-)
-09. [tree-sitter — 25.6k ⭐](#9-tree-sitter-256k-)
-10. [swagger-codegen — 17.7k ⭐](#10-swagger-codegen-177k-)
-11. [code-review-graph — 17.5k ⭐](#11-code-review-graph-175k-)
-12. [semgrep — 15.3k ⭐](#12-semgrep-153k-)
-13. [codeql — 9.6k ⭐](#13-codeql-96k-)
+09. [tree-sitter — 25.7k ⭐](#9-tree-sitter-257k-)
+10. [code-review-graph — 18.0k ⭐](#10-code-review-graph-180k-)
+11. [swagger-codegen — 17.8k ⭐](#11-swagger-codegen-178k-)
+12. [semgrep — 15.4k ⭐](#12-semgrep-154k-)
+13. [codeql — 9.7k ⭐](#13-codeql-97k-)
 14. [oclif — 9.5k ⭐](#14-oclif-95k-)
-15. [semble — 4.4k ⭐](#15-semble-44k-)
+15. [semble — 4.8k ⭐](#15-semble-48k-)
 16. [OpenDeepWiki — 3.3k ⭐](#16-opendeepwiki-33k-)
 17. [joern — 3.2k ⭐](#17-joern-32k-)
 18. [smart-doc — 1.6k ⭐](#18-smart-doc-16k-)
 19. [Redocly CLI — 1.5k ⭐](#19-redocly-cli-15k-)
-20. [deepwiki-rs — 1k ⭐](#20-deepwiki-rs-1k-)
+20. [deepwiki-rs — 1.0k ⭐](#20-deepwiki-rs-10k-)
 
 ---
 
-## 1. context7 (56.2k ⭐)
-
-**🔗** https://github.com/upstash/context7  
-**🍴** Fork 2.7k | **🔄** Updated May 25, 2026  
-**👤** Upstash — Serverless Data Platform, offering Redis, Vector DB, QStash and more
-
-> Up-to-date code documentation context platform for LLMs and AI code editors. Solves the hallucination problem caused by outdated LLM training data — no more deprecated APIs and obsolete patterns. Integrates via MCP server into Cursor, Claude Code, Windsurf, and other AI editors. Add `use context7` to your prompt and it automatically pulls the latest docs and code examples for any library, injecting them into LLM context. Indexes real-time documentation for thousands of open-source libraries.
-
-**Capabilities:** 📝 Real-time Doc Context · 🤖 MCP/Agent Integration · 🔍 Hallucination Prevention
-
----
-
-## 2. graphify (54.7k ⭐)
+## 1. graphify (58.7k ⭐)
 
 **🔗** https://github.com/safishamsi/graphify  
-**🍴** Fork 5.8k | **🔄** Updated May 27, 2026  
-**👤** Safi (safishamsi) — London AI Engineer, Birmingham MSc Data Science (Distinction)
+**🍴** Forks 6.1k | **🔄** Updated Jun 3, 2026  
+**👤** Safi (safishamsi) — London-based AI engineer, MSc Data Science (Distinction) from University of Birmingham, focused on healthcare AI and knowledge graphs
 
-> AI coding assistant skill. Type `/graphify .` in your AI agent and it maps your entire project — code, docs, PDFs, images, videos — into a queryable knowledge graph. Outputs three files: `graph.html` (interactive node visualization), `GRAPH_REPORT.md` (key concepts & surprising connections), and `graph.json` (full graph data for re-querying without re-reading files). Also supports `graphify export callflow-html` for readable architecture pages with Mermaid call-flow diagrams. Works in Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, Aider, OpenClaw, and 15+ agents. PyPI package: `graphifyy`, install via `uv tool install graphifyy`.
+> AI coding assistant skill that maps an entire project — code, docs, PDFs, images, videos — into a queryable knowledge graph by running `/graphify .` in your AI agent. Produces three outputs: `graph.html` (interactive node diagram), `GRAPH_REPORT.md` (key concepts & relationship analysis), and `graph.json` (full graph data). Can also generate architecture pages with Mermaid call flow diagrams via `graphify export callflow-html`. Supports 15+ mainstream agent tools including Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, Aider, and OpenClaw. PyPI package `graphifyy`, install via `uv tool install graphifyy`.
 
-**Capabilities:** 📊 Code Graph · 🏗️ Architecture · 🔍 Call-flow Analysis · 📝 Auto Reports
+**Matched Capabilities:** 📊 Code Graph · 🏗️ Architecture Mapping · 🔍 Call Flow Analysis · 📝 Auto Report
 
 ---
 
-## 3. CLI-Anything (40.8k ⭐)
+## 2. context7 (56.6k ⭐)
+
+**🔗** https://github.com/upstash/context7  
+**🍴** Forks 2.7k | **🔄** Updated Jun 3, 2026  
+**👤** Upstash — Serverless Data Platform company providing Redis/vector database/message queue cloud services
+
+> Provides up-to-date code documentation context for LLMs and AI code editors. Solves the code hallucination problem caused by outdated LLM training data — no more generating obsolete APIs and deprecated usage patterns. Integrates via MCP server into AI editors like Cursor, Claude Code, and Windsurf. Adding `use context7` to prompts automatically pulls the latest documentation and code examples for target libraries, injecting them into LLM context. Supports real-time documentation indexing for thousands of open-source libraries.
+
+**Matched Capabilities:** 📝 Real-time Documentation Context · 🤖 MCP/Agent Integration · 🔍 Code Hallucination Elimination
+
+---
+
+## 3. CLI-Anything (41.9k ⭐)
 
 **🔗** https://github.com/HKUDS/CLI-Anything  
-**🍴** Fork 3.9k | **🔄** Updated May 23, 2026  
-**👤** HKUDS (HKU Data Science Lab) — Academic + Open-source Team
+**🍴** Forks 4.0k | **🔄** Updated Jun 3, 2026  
+**👤** HKUDS (Hong Kong University Data Science Lab) — academic + open-source team
 
-> "Today's Software Serves Humans👨‍💻. Tomorrow's Users will be Agents🤖." Bridges the gap between AI agents and the world's software. One command line generates agent-ready CLI interfaces for any software, enabling Pi, OpenClaw, Cursor, Claude Code, and more to directly control applications. Built-in CLI-Hub community registry (`pip install cli-anything-hub`) for browsing, installing, and managing community-built CLI wrappers. Supports preview, live preview, and trajectory loops for agents to produce real artifacts: CAD builds, 3D scenes, diagrams, gameplay, subtitles, and more.
+> "Today's software serves humans 👨‍💻, tomorrow's users will be agents 🤖" — bridging the gap between AI agents and the world's software. Generates agent-ready CLI interfaces for any software with a single command, enabling tools like Pi, OpenClaw, Cursor, and Claude Code to directly control various applications. Built-in CLI-Hub community registry (`pip install cli-anything-hub`) for browsing, installing, and managing community-built CLI wrappers. Supports preview, live preview, and trajectory loops, allowing agents to produce real artifacts: CAD models, 3D scenes, diagrams, game footage, subtitles, and more. Dozens of software CLI wrappers already available including QGIS (GIS), Obsidian, Safari, FreeCAD, Kdenlive, and Unreal Insights.
 
-**Capabilities:** 🔌 Software→CLI Conversion · 🤖 Agent-Native · 📦 Community Ecosystem
+**Matched Capabilities:** 🔌 Software→CLI Conversion · 🤖 Agent-Native · 📦 Community Ecosystem
 
 ---
 
-## 4. GitNexus (40.5k ⭐)
+## 4. GitNexus (41.2k ⭐)
 
 **🔗** https://github.com/abhigyanpatwari/GitNexus  
-**🍴** Fork 4.6k | **🔄** Updated May 27, 2026  
-**👤** Abhigyan Patwari (Akon Labs)
+**🍴** Forks 4.7k | **🔄** Updated Jun 3, 2026  
+**👤** Abhigyan Patwari (Akon Labs) — code intelligence engine developer
 
-> Building nervous system for agent context. Indexes any codebase into a knowledge graph — every dependency, call chain, cluster, and execution flow — then exposes it through smart tools so AI agents never miss code. Two modes: **CLI + MCP** (`npm install -g gitnexus`, indexes repos locally, connects AI agents via MCP server, uses LadybugDB for persistent storage and native Tree-sitter parsing) and **Web UI** (visual graph explorer + AI chat in browser). Bridge mode connects both. Self-described as "Like DeepWiki, but deeper" — DeepWiki helps you understand code, GitNexus lets you analyze it. Enterprise edition supports PR blast radius analysis, auto-updating Code Wiki, and multi-repo unified graphs.
+> Builds a "code nervous system" for agent context. Indexes any codebase into a knowledge graph — covering every dependency, call chain, cluster, and execution flow — then exposes it through smart tools so AI agents never miss code. Two modes: **CLI + MCP** (`npm install -g gitnexus`, local repo indexing, connects to Cursor/Claude Code/Codex/Windsurf/OpenCode via MCP server, using LadybugDB persistent storage and native Tree-sitter parsing) and **Web UI** (browser-based visual graph explorer + AI chat). Bridge mode connects both. Claims "Like DeepWiki, but deeper" — DeepWiki helps you understand code, GitNexus lets you analyze it, because the knowledge graph tracks every relationship, not just descriptions. Enterprise edition offers PR blast radius analysis, automatic code wiki updates, and multi-repo unified graphs.
 
-**Capabilities:** 🏗️ Architecture · 📊 Module Decomposition · 🔍 Code Graph · 🤖 MCP/Agent Integration
+**Matched Capabilities:** 🏗️ Architecture Mapping · 📊 Module Decomposition · 🔍 Code Graph · 🤖 MCP/Agent Integration
 
 ---
 
-## 5. codegraph (29.3k ⭐)
+## 5. codegraph (38.8k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Fork 1.7k | **🔄** Updated May 27, 2026  
-**👤** Colby McHenry — Independent developer with 15+ years of software experience
+**🍴** Forks 2.4k | **🔄** Updated Jun 3, 2026  
+**👤** Colby McHenry — independent developer with 15+ years of software development experience
 
-> Pre-indexed code knowledge graph for AI agents — fewer tokens, fewer tool calls, 100% local. No server, no API key required. Supports Claude Code, Codex, Gemini CLI, Cursor, OpenCode, AntiGravity, Kiro, Hermes Agent, and more. Builds a persistent index of your codebase to provide precise context, reducing token consumption and enabling AI to understand code structure more efficiently.
+> Pre-indexed code knowledge graph providing precise context for AI agents. Runs 100% locally — no servers, no API keys. Supports Claude Code, Codex, Gemini CLI, Cursor, OpenCode, AntiGravity, Kiro, Hermes Agent, and other mainstream platforms. Reduces token consumption and tool calls through pre-built indexing, enabling AI to understand codebase structure more efficiently.
 
-**Capabilities:** 📊 Code Knowledge Graph · ⚡ Token Optimization · 🤖 Multi-Agent Support · 🔒 Local-first
+**Matched Capabilities:** 📊 Code Knowledge Graph · ⚡ Token Optimization · 🤖 Multi-Agent Platform Support · 🔒 Local-First
 
 ---
 
 ## 6. swagger-ui (28.8k ⭐)
 
 **🔗** https://github.com/swagger-api/swagger-ui  
-**🍴** Fork 9.3k | **🔄** Updated May 2026  
-**👤** SmartBear / Swagger Team — API Toolchain Industry Standard
+**🍴** Forks 9.3k | **🔄** Updated Jun 2, 2026  
+**👤** SmartBear / Swagger team — API toolchain industry standard setter
 
-> Dynamically generates beautiful interactive API documentation from Swagger/OpenAPI specs. Provides "Try it out" live API testing, request/response model viewing, and parameter documentation. The de facto standard for API documentation visualization, used across virtually all RESTful projects.
+> Automatically generates interactive API documentation interfaces from Swagger/OpenAPI specifications. Provides online "Try it out" API trial calls, request/response model viewing, parameter descriptions, and more. The de facto standard for API documentation visualization,标配 for almost every RESTful project.
 
-**Capabilities:** 📝 API Documentation · 🖥️ Interactive API Debugging
+**Matched Capabilities:** 📝 API Documentation Visualization · 🖥️ Interactive API Debugging
 
 ---
 
 ## 7. google/python-fire (28.2k ⭐)
 
 **🔗** https://github.com/google/python-fire  
-**🍴** Fork 1.5k | **🔄** Updated Apr 2026  
-**👤** Google
+**🍴** Forks 1.5k | **🔄** Updated Apr 1, 2026  
+**👤** Google — Python Fire is Google's open-source CLI generation library
 
-> Automatically generates CLI interfaces from absolutely any Python object. No decorators, argument definitions, or config files needed — directly converts functions, classes, modules, dicts, even object instances into fully usable CLIs with subcommands, argument inference, and help docs. The fastest path from code to CLI.
+> Automatically generates command-line interfaces from any Python object. No decorators, parameter definitions, or configuration files needed — directly converts functions, classes, modules, dictionaries, and even object instances into fully functional CLIs, including subcommands, parameter inference, and help documentation. The fastest path from code to CLI.
 
-**Capabilities:** 🔌 Code→CLI Conversion · ⚡ Rapid Prototyping
+**Matched Capabilities:** 🔌 Code→CLI Conversion · ⚡ Rapid Prototyping
 
 ---
 
 ## 8. openapi-generator (26.3k ⭐)
 
 **🔗** https://github.com/OpenAPITools/openapi-generator  
-**🍴** Fork 7.5k | **🔄** Updated May 2026  
-**👤** OpenAPI Tools Community
+**🍴** Forks 7.5k | **🔄** Updated Jun 3, 2026  
+**👤** OpenAPI Tools Community — OpenAPI ecosystem core project
 
-> Given an OpenAPI Spec (v2/v3), automatically generates API client SDKs, server stubs, documentation, and configuration. Supports 50+ languages/frameworks including Java/Python/TypeScript/Go/Ruby/C#/Rust. The industrial-grade standard for spec-driven development and the go-to solution for generating CLI clients from OpenAPI specs.
+> Given an OpenAPI Spec (v2/v3), automatically generates API client SDKs, server stubs, documentation, and configurations. Supports 50+ programming languages/frameworks, covering Java/Python/TypeScript/Go/Ruby/C#/Rust and other mainstream languages. The industrial-grade standard tool for API spec-driven development and the top choice for generating CLI clients from OpenAPI specs.
 
-**Capabilities:** 📝 API Docs · 🔌 SDK/CLI Generation · 📐 Spec Validation
+**Matched Capabilities:** 📝 API Doc Generation · 🔌 SDK/CLI Generation · 📐 Spec Validation
 
 ---
 
-## 9. tree-sitter (25.6k ⭐)
+## 9. tree-sitter (25.7k ⭐)
 
 **🔗** https://github.com/tree-sitter/tree-sitter  
-**🍴** Fork 2.7k | **🔄** Updated May 2026  
-**👤** Tree-sitter Community — Created by Max Brunsfeld (former GitHub Atom team)
+**🍴** Forks 2.7k | **🔄** Updated Jun 3, 2026  
+**👤** Tree-sitter Community — created by Max Brunsfeld (former GitHub Atom team), now an independent open-source project
 
-> Incremental parser generator and parsing library — the foundational infrastructure beneath almost all modern code analysis tools. Builds concrete syntax trees (CST) and efficiently updates them incrementally. Design goals: general (200+ language grammars), fast (parse on every keystroke), robust (useful results with syntax errors), dependency-free (pure C runtime). Provides Rust/Wasm/Node/Python bindings. GitNexus, graphify, Aider, and other tools depend on tree-sitter for parsing. The go-to foundation for building custom code analysis pipelines.
+> Incremental parser generator and parsing library — the foundational cornerstone for nearly all modern code analysis tools. Builds concrete syntax trees (CST) for source files and efficiently incrementally updates them as files are edited. Design goals: universal (can parse any programming language, 200+ language grammars available), extremely fast (parses on every keystroke), robust (still produces useful results even with syntax errors), zero-dependency (pure C runtime, embeddable in any application). Provides Rust/Wasm/Node/Python and other language bindings plus CLI tools. Higher-level tools like GitNexus, graphify, Aider, and Codebase-Memory all rely on tree-sitter for底层 parsing. The preferred infrastructure for building custom code understanding pipelines.
 
-**Capabilities:** 🧱 Foundational Parser · 📊 AST/CST Construction · 🔍 200+ Languages · ⚡ Incremental Parsing
-
----
-
-## 10. swagger-codegen (17.7k ⭐)
-
-**🔗** https://github.com/swagger-api/swagger-codegen  
-**🍴** Fork 6k | **🔄** Updated May 2026  
-**👤** SmartBear / Swagger Team
-
-> Template-driven code generation engine that parses OpenAPI/Swagger definitions to generate documentation, API clients, and server stubs. The predecessor to openapi-generator; new projects should prefer openapi-generator.
-
-**Capabilities:** 📝 API Docs · 🔌 Code Generation
+**Matched Capabilities:** 🧱 Foundational Parsing · 📊 AST/CST Construction · 🔍 200+ Language Support · ⚡ Incremental Parsing
 
 ---
 
-## 11. code-review-graph (17.5k ⭐)
+## 10. code-review-graph (18.0k ⭐)
 
 **🔗** https://github.com/tirth8205/code-review-graph  
-**🍴** Fork 1.9k | **🔄** Updated May 25, 2026  
-**👤** Tirth Patel — Code graph & token optimization developer
+**🍴** Forks 1.9k | **🔄** Updated May 25, 2026  
+**👤** Tirth Patel — developer in code graph and token optimization
 
-> Stop burning tokens. Start reviewing smarter. Builds a local code knowledge graph — parses repos into ASTs with Tree-sitter, stores as nodes and edges, serves precise context via MCP. Core capability: **blast radius analysis** — traces every caller, dependent, and test affected by file changes. In large monorepos, 27,700+ files excluded from review context, only ~15 files actually read. 6.8× fewer tokens on reviews, up to 49× fewer on daily tasks. One command auto-configures all supported AI platforms.
+> Stop burning tokens, start reviewing smartly. Builds a local code knowledge graph for AI coding tools — parses repos into ASTs using Tree-sitter, stores as nodes (functions/classes/imports) and edges (calls/inheritance/test coverage), provides precise context to AI assistants via MCP protocol so they only read truly relevant code. Core capability: **blast radius analysis** — when files change, traces every caller, dependent, and related test so the AI reads only those files instead of scanning the entire project. Incremental updates are extremely fast (<2 seconds for a 2900-file project); in large monorepos, 27,700+ files are excluded from review context, reading only ~15 files.实测 saves 6.8× tokens in code review and up to 49× in daily coding tasks. Supports Claude Code/Codex/Cursor/Gemini CLI/Kiro/GitHub Copilot platforms, auto-detecting and configuring all supported AI tools with one command.
 
-**Capabilities:** 📊 Code Knowledge Graph · 🔍 Blast Radius Analysis · ⚡ Token Optimization · 🤖 MCP/Multi-platform
+**Matched Capabilities:** 📊 Code Knowledge Graph · 🔍 Change Impact Analysis · ⚡ Token Optimization · 🤖 MCP/Multi-Platform Integration
 
 ---
 
-## 12. semgrep (15.3k ⭐)
+## 11. swagger-codegen (17.8k ⭐)
+
+**🔗** https://github.com/swagger-api/swagger-codegen  
+**🍴** Forks 6.0k | **🔄** Updated May 19, 2026  
+**👤** SmartBear / Swagger team
+
+> Template-driven code generation engine that parses OpenAPI/Swagger definitions to automatically generate documentation, API clients, and server stubs. Multi-language and multi-framework support. The predecessor to openapi-generator. The two have highly overlapping functionality; new projects are recommended to prioritize openapi-generator.
+
+**Matched Capabilities:** 📝 API Documentation · 🔌 Code Generation
+
+---
+
+## 12. semgrep (15.4k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
-**🍴** Fork 949 | **🔄** Updated May 2026  
-**👤** Semgrep Inc. (formerly r2c / Return To Corp)
+**🍴** Forks 954 | **🔄** Updated Jun 3, 2026  
+**👤** Semgrep Inc. (formerly r2c / Return To Corp) — code security analysis company
 
-> Semantic grep for code. Finds bug variants using **patterns that look like source code** — no ASTs, regex, or DSLs needed. 30+ languages supported. Custom rules can batch-extract API call patterns, route definitions, and security vulnerabilities. Open-source for single function/file; enterprise supports cross-file dataflow analysis.
+> Semantic grep for code. Finds bug variants using **patterns that look like source code** — no ASTs, regular expressions, or complex DSLs needed. Supports 30+ languages (Apex/Bash/C/C++/C#/Go/Java/JavaScript/Kotlin/Python/Ruby/Rust/Swift/TypeScript, etc.). While `grep "2"` only matches the string "2", Semgrep can match semantically equivalent "2" in `x=1; y=x+1`. Custom rules can batch-extract API call patterns, route definitions, and security vulnerabilities from code. The open-source version is limited to single-function/file analysis; the enterprise edition supports cross-file and cross-function data flow analysis.
 
-**Capabilities:** 🔍 Code Pattern Matching · 📊 API Call Batch Extraction · 🛡️ Security Analysis
+**Matched Capabilities:** 🔍 Code Pattern Matching · 📊 Batch API Call Extraction · 🛡️ Security Analysis
 
 ---
 
-## 13. codeql (9.6k ⭐)
+## 13. codeql (9.7k ⭐)
 
 **🔗** https://github.com/github/codeql  
-**🍴** Fork 2k | **🔄** Updated May 2026  
-**👤** GitHub — Powers GitHub Advanced Security
+**🍴** Forks 2.0k | **🔄** Updated Jun 3, 2026  
+**👤** GitHub — the official analysis engine from the world's largest code hosting platform
 
-> Code query language and analysis platform. Treats code as a database, using SQL-like QL to locate patterns, vulnerabilities, and structural relationships. Thousands of pre-built queries, supports C/C++/C#/Go/Java/JavaScript/Python/Ruby/Swift. Custom queries can extract API endpoints, routing tables, and call chains.
+> Code query language and analysis platform powering GitHub Advanced Security's code scanning feature. Treats code as a database, using a SQL-like query language (QL) to precisely locate patterns, vulnerabilities, and structural relationships in code. Includes standard libraries and thousands of pre-built queries, supporting C/C++/C#/Go/Java/JavaScript/Python/Ruby/Swift. Provides VS Code extension, CLI tools, and CI/CD integration. Custom queries can extract API endpoint definitions, route tables, call chains, and other structured information. Open-source for open-source project analysis; commercial license required for private repositories.
 
-**Capabilities:** 🔍 Code Structure Queries · 📊 API Endpoint Extraction · 🏗️ Call Chain Analysis
+**Matched Capabilities:** 🔍 Code Structure Query · 📊 API Endpoint Extraction · 🏗️ Call Chain Analysis
 
 ---
 
 ## 14. oclif (9.5k ⭐)
 
 **🔗** https://github.com/oclif/oclif  
-**🍴** Fork 354 | **🔄** Updated May 24, 2026  
-**👤** Salesforce — The Framework Behind Heroku CLI
+**🍴** Forks 355 | **🔄** Updated Jun 1, 2026  
+**👤** Salesforce — the framework behind Heroku CLI
 
-> Node.js CLI framework for generating, building, and releasing command-line tools. Plugin architecture, multi-command support, auto help generation, native TypeScript, hook system. Powers Heroku CLI and Salesforce CLI.
+> Node.js CLI framework for creating, building, and publishing command-line tools. Plugin architecture supporting multi-command organization, automatic help documentation generation, native TypeScript support, and hook system. Well-known tools including Heroku CLI and Salesforce CLI are all built on oclif. Suitable for encapsulating extracted API information into standardized CLI tool products.
 
-**Capabilities:** 🔌 CLI Framework · 📦 CLI Tool Productization
+**Matched Capabilities:** 🔌 CLI Framework · 📦 CLI Tool Productization
 
 ---
 
-## 15. semble (4.4k ⭐)
+## 15. semble (4.8k ⭐)
 
 **🔗** https://github.com/MinishLab/semble  
-**🍴** Fork 178 | **🔄** Updated May 21, 2026  
-**👤** Minish Lab — Two-person open-source lab (pringled & stephantul), focused on NLP and efficient models
+**🍴** Forks 200 | **🔄** Updated Jun 3, 2026  
+**👤** Minish Lab — two-person open-source lab (pringled & stephantul), focused on NLP and efficient models
 
-> Fast and accurate code search for agents. Uses ~98% fewer tokens than grep+read. Provides semantic-level code search for AI coding assistants, enabling precise code fragment location in large codebases without brute-force file traversal.
+> Fast and precise code search tool for agents. Reduces token consumption by approximately 98% compared to grep+read. Provides semantic code search capabilities for AI coding assistants, enabling agents to precisely locate relevant code snippets in large codebases instead of brute-force file traversal.
 
-**Capabilities:** 🔍 Semantic Code Search · ⚡ Token Optimization · 🤖 Agent Integration
+**Matched Capabilities:** 🔍 Semantic Code Search · ⚡ Token Optimization · 🤖 Agent Integration
 
 ---
 
 ## 16. OpenDeepWiki (3.3k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
-**🍴** Fork 416 | **🔄** Updated May 12, 2026  
-**👤** AIDotNet — .NET AI Ecosystem
+**🍴** Forks 421 | **🔄** Updated Jun 1, 2026  
+**👤** AIDotNet — .NET AI ecosystem open-source organization
 
-> Open-source DeepWiki, built on .NET 9 and Semantic Kernel. AI-powered code knowledge management: analyzes code structure, generates documentation and knowledge graphs. Supports GitHub/GitLab/Gitee/Gitea repositories. Features MCP protocol integration, conversational interaction, Mermaid diagrams, and multi-database support.
+> Open-source DeepWiki version built on .NET 9 and Semantic Kernel. AI-driven code knowledge management platform: automatically analyzes code structure, understands core concepts, and generates documentation and knowledge graphs. Supports repositories from GitHub/GitLab/AtomGit/Gitee/Gitea and other platforms, converting them into knowledge bases in minutes. Automatically generates Mermaid code structure diagrams. Supports custom AI models and APIs, multiple databases (SQLite/PostgreSQL/MySQL/SqlServer), and multi-language interfaces. Provides conversational interaction for deep code understanding, MCP protocol integration (can serve as MCPServer for other AI models), SEO-friendly Next.js frontend, and data fine-tuning platform. Supports ZIP/local file uploads.
 
-**Capabilities:** 🏗️ Architecture Docs · 📊 Module Identification · 📝 Auto Documentation · 🤖 MCP Integration
+**Matched Capabilities:** 🏗️ Architecture Documentation · 📊 Module Recognition · 📝 Auto Documentation · 🤖 MCP Integration
 
 ---
 
 ## 17. joern (3.2k ⭐)
 
 **🔗** https://github.com/joernio/joern  
-**🍴** Fork 414 | **🔄** Updated May 2026  
-**👤** joern.io — Pioneers of Code Property Graphs (Saarland University)
+**🍴** Forks 416 | **🔄** Updated Jun 3, 2026  
+**👤** joern.io — pioneer in code property graphs (originated from Saarland University research)
 
-> Open-source platform for analyzing source code, bytecode, and binaries. Core concept: **Code Property Graphs (CPG)** — unifying AST, control flow, and data flow into a single queryable cross-language graph. Supports C/C++/Java/JavaScript/Python/Kotlin/Binary. Scala DSL queries, interactive REPL, Docker deployment.
+> Open-source code analysis platform for analyzing source code, bytecode, and binary executables. Core concept is the **Code Property Graph (CPG)** — unifying ASTs, control flow graphs, and data flow graphs into a single cross-language queryable graph structure, stored in a custom graph database. Uses a Scala DSL query language to mine code. Supports C/C++/Java/JavaScript/Python/Kotlin/Binary. Aims to provide foundational tooling for vulnerability discovery and static program analysis research. Interactive REPL interface, Docker deployment support, can run in server mode.
 
-**Capabilities:** 📊 Code Property Graphs · 🔍 Cross-language Analysis · 🏗️ Call Chain/Dataflow Tracing
+**Matched Capabilities:** 📊 Code Property Graph · 🔍 Cross-Language Deep Analysis · 🏗️ Call Chain/Data Flow Tracking
 
 ---
 
 ## 18. smart-doc (1.6k ⭐)
 
 **🔗** https://github.com/TongchengOpenSource/smart-doc  
-**🍴** Fork 297 | **🔄** Updated Dec 2025  
-**👤** Tongcheng Open Source — Java API Documentation
+**🍴** Forks 297 | **🔄** Updated Dec 4, 2025  
+**👤** Tongcheng Open Source — focused on Java API documentation automation
 
-> Java API documentation generator based on source code analysis — completely zero-injection, just standard Javadoc comments. Covers Spring MVC/Boot/WebFlux/Feign/JAX-RS/Dubbo/gRPC. Exports to Markdown/HTML5/Word/Postman/OpenAPI 3.0/JMeter.
+> Java API documentation generation tool that directly generates documentation from interface source code analysis — zero annotation intrusion, just write standard Javadoc comments. Powerful return value structure auto-derivation based on source code, supporting async interfaces (Callable/Future/CompletableFuture) and JSR-303 parameter validation specs. Covers Spring MVC/Spring Boot/WebFlux/Feign/JAX-RS frameworks, plus Apache Dubbo RPC and gRPC protocols. Can export to Markdown/HTML5/Word/Asciidoctor/Postman Collection/OpenAPI 3.0/JMeter performance test scripts and other formats. Supports loading external source code (including JARs) for field comment generation, error code and data dictionary export, and debug pages with file upload/download testing.
 
-**Capabilities:** 📝 Auto API Docs · 🔍 Source-level Extraction · 📐 OpenAPI/Postman Output
+**Matched Capabilities:** 📝 Auto API Documentation · 🔍 Source-Level Interface Extraction · 📐 OpenAPI/Postman Output
 
 ---
 
 ## 19. Redocly CLI (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
-**🍴** Fork 217 | **🔄** Updated May 27, 2026  
-**👤** Redocly — API Documentation Platform
+**🍴** Forks 217 | **🔄** Updated Jun 3, 2026  
+**👤** Redocly — API documentation and design platform company
 
-> Makes OpenAPI easy. Lint/validate to any standard, generate beautiful interactive docs, preview API definitions, and bundle multi-file OpenAPI specs.
+> CLI tool that makes OpenAPI development simple. Lint/validate against any standard, generate beautiful interactive documentation, preview API definitions, and bundle multi-file OpenAPI specs. Suitable for standardized validation and documentation rendering after API extraction.
 
-**Capabilities:** 📐 OpenAPI Validation · 📝 Doc Generation · 🔍 Spec Linting
+**Matched Capabilities:** 📐 OpenAPI Validation · 📝 Documentation Generation · 🔍 Spec Linting
 
 ---
 
-## 20. deepwiki-rs (1k ⭐)
+## 20. deepwiki-rs (1.0k ⭐)
 
 **🔗** https://github.com/sopaco/deepwiki-rs  
-**🍴** Fork 125 | **🔄** Updated Apr 2026  
-**👤** sopaco (Jiang Meng) — Rust developer focused on decentralization and automation
+**🍴** Forks 126 | **🔄** Updated May 16, 2026  
+**👤** sopaco (姜萌) — Rust developer, focused on decentralization and automation
 
-> Turn code into clarity. Generates accurate technical documentation and AI-ready context in minutes — perfectly structured for human teams and intelligent agents. A lightweight, high-performance Rust code documentation engine.
+> Turns code into clear documentation. Generates accurate technical documentation and AI-ready context in minutes — perfectly structured for both human teams and intelligent agents. A Rust-implemented code documentation engine, lightweight and efficient.
 
-**Capabilities:** 📝 Code Documentation · 🏗️ Architecture · ⚡ Rust Performance
+**Matched Capabilities:** 📝 Code Documentation Generation · 🏗️ Architecture Mapping · ⚡ Rust High Performance
 
 ---
 
 ## Category Index
 
 ### 🏗️ Code Graph & Architecture Analysis
-- [graphify](#2-graphify-547k-) — Code/docs → queryable knowledge graph + call-flow
-- [GitNexus](#4-gitnexus-405k-) — CLI+MCP code nervous system, agent integration
-- [codegraph](#5-codegraph-293k-) — Pre-indexed code knowledge graph, local-first
-- [tree-sitter](#9-tree-sitter-256k-) — Foundational parser, 200+ language AST/CST
-- [code-review-graph](#11-code-review-graph-175k-) — Local code graph, blast radius analysis
-- [joern](#17-joern-32k-) — Code Property Graph (CPG) platform
-- [codeql](#13-codeql-96k-) — Code query language, by GitHub
-- [semgrep](#12-semgrep-153k-) — Semantic grep, multi-language pattern matching
+- [graphify](#1-graphify-587k-) — code/docs → queryable knowledge graph + call flow
+- [GitNexus](#4-gitnexus-412k-) — CLI+MCP code nervous system, agent integration
+- [codegraph](#5-codegraph-388k-) — pre-indexed code knowledge graph, local-first
+- [tree-sitter](#9-tree-sitter-257k-) — foundational parsing, 200+ language AST/CST
+- [code-review-graph](#10-code-review-graph-180k-) — local code graph, blast radius analysis
+- [joern](#17-joern-32k-) — code property graph (CPG) analysis platform
+- [codeql](#13-codeql-97k-) — code query language, GitHub official
+- [semgrep](#12-semgrep-154k-) — semantic grep, multi-language pattern matching
 
 ### 📝 API Extraction & Documentation
-- [context7](#1-context7-562k-) — Real-time code doc context for LLMs
-- [smart-doc](#18-smart-doc-16k-) — Java zero-injection API docs, source analysis
+- [context7](#2-context7-566k-) — real-time code documentation context for LLMs
+- [smart-doc](#18-smart-doc-16k-) — Java zero-intrusion API docs, source analysis
 - [OpenDeepWiki](#16-opendeepwiki-33k-) — AI-driven repo → Wiki + MCP
-- [deepwiki-rs](#20-deepwiki-rs-1k-) — Rust code documentation engine
-- [swagger-ui](#6-swagger-ui-288k-) — Interactive API docs standard
+- [deepwiki-rs](#20-deepwiki-rs-10k-) — Rust code documentation engine
+- [swagger-ui](#6-swagger-ui-288k-) — interactive API documentation standard
 - [openapi-generator](#8-openapi-generator-263k-) — OpenAPI → SDK/CLI/docs
-- [Redocly CLI](#19-redocly-cli-15k-) — OpenAPI lint + doc rendering
+- [Redocly CLI](#19-redocly-cli-15k-) — OpenAPI lint + documentation rendering
 
 ### 🔌 CLI Conversion & Frameworks
-- [CLI-Anything](#3-cli-anything-408k-) — Software → Agent-Native CLI
-- [python-fire](#7-googlepython-fire-282k-) — Python objects → CLI
+- [CLI-Anything](#3-cli-anything-419k-) — software → agent-native CLI
+- [python-fire](#7-googlepython-fire-282k-) — Python object → CLI
 - [oclif](#14-oclif-95k-) — Node.js CLI framework (Heroku/Salesforce)
-- [swagger-codegen](#10-swagger-codegen-177k-) — Swagger → code/CLI
+- [swagger-codegen](#11-swagger-codegen-178k-) — Swagger → code/CLI
 
 ### 🔍 Code Search & Token Optimization
-- [semble](#15-semble-44k-) — Agent semantic code search, ~98% fewer tokens
-- [code-review-graph](#11-code-review-graph-175k-) — Blast radius analysis, 6.8-49× fewer tokens
-- [codegraph](#5-codegraph-293k-) — Pre-indexed graph, fewer tool calls
+- [semble](#15-semble-48k-) — agent semantic code search, saves 98% tokens
+- [code-review-graph](#10-code-review-graph-180k-) — blast radius analysis, saves 6.8-49× tokens
+- [codegraph](#5-codegraph-388k-) — pre-indexed graph, reduces tool calls
 
 ---
 
-## Watchlist (Stars < 1k, High Potential)
+## Candidates to Watch (Stars < 1k but Promising)
 
 | Repository | Stars | Description |
 |------------|-------|-------------|
-| [OpenBMB/RepoAgent](https://github.com/OpenBMB/RepoAgent) | 969 | LLM-powered repository documentation |
-| [archguard/archguard](https://github.com/archguard/archguard) | 668 | Architecture governance workbench |
-| [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) | 437 | API → CLI patterns (Node+Commander) |
-| [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 268 | 280 AI agents for multi-lens code audit |
+| [OpenBMB/RepoAgent](https://github.com/OpenBMB/RepoAgent) | 969 | LLM-driven repository documentation generation |
+| [archguard/archguard](https://github.com/archguard/archguard) | 668 | Architecture governance workbench, container/component/code-level analysis |
+| [alexknowshtml/api2cli](https://github.com/alexknowshtml/api2cli) | 437 | API → CLI pattern library (Node+Commander) |
+| [TheMorpheus407/RepoLens](https://github.com/TheMorpheus407/RepoLens) | 268 | 280 AI agents for multi-angle code auditing |
 | [lucianfialho/spec2cli](https://github.com/lucianfialho/spec2cli) | 16 | OpenAPI Spec → CLI, zero code generation |
-| [tangcent/apilot](https://github.com/tangcent/apilot) | 3 | Multi-language API endpoint scanner |
+| [tangcent/apilot](https://github.com/tangcent/apilot) | 3 | Multi-language API endpoint scanning → Markdown/cURL/Postman |
 
 ---
 
-*Data as of 2026-05-27, star counts from GitHub public pages*
+*Data as of 2026-06-03, star counts from GitHub public pages*
