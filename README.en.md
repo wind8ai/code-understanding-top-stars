@@ -10,12 +10,12 @@
 
 ## Contents
 
-01. [Understand-Anything — 51.4k ⭐](#1-understand-anything-514k-)
-02. [graphify — 58.7k ⭐](#2-graphify-587k-)
-03. [context7 — 56.6k ⭐](#3-context7-566k-)
-04. [CLI-Anything — 41.9k ⭐](#4-cli-anything-419k-)
-05. [GitNexus — 41.2k ⭐](#5-gitnexus-412k-)
-06. [codegraph — 38.8k ⭐](#6-codegraph-388k-)
+01. [graphify — 59.0k ⭐](#1-graphify-590k-)
+02. [context7 — 56.7k ⭐](#2-context7-567k-)
+03. [Understand-Anything — 51.4k ⭐](#3-understand-anything-514k-)
+04. [CLI-Anything — 42.0k ⭐](#4-cli-anything-420k-)
+05. [GitNexus — 41.3k ⭐](#5-gitnexus-413k-)
+06. [codegraph — 39.9k ⭐](#6-codegraph-399k-)
 07. [swagger-ui — 28.8k ⭐](#7-swagger-ui-288k-)
 08. [google/python-fire — 28.2k ⭐](#8-googlepython-fire-282k-)
 09. [openapi-generator — 26.3k ⭐](#9-openapi-generator-263k-)
@@ -26,7 +26,7 @@
 14. [codeql — 9.7k ⭐](#14-codeql-97k-)
 15. [oclif — 9.5k ⭐](#15-oclif-95k-)
 16. [semble — 4.8k ⭐](#16-semble-48k-)
-17. [OpenDeepWiki — 3.1k ⭐](#17-opendeepwiki-31k-)
+17. [OpenDeepWiki — 3.3k ⭐](#17-opendeepwiki-33k-)
 18. [joern — 3.2k ⭐](#18-joern-32k-)
 19. [smart-doc — 1.6k ⭐](#19-smart-doc-16k-)
 20. [Redocly CLI — 1.5k ⭐](#20-redocly-cli-15k-)
@@ -36,22 +36,10 @@
 
 ---
 
-## 1. Understand-Anything (51.4k ⭐)
-
-**🔗** https://github.com/Lum1104/Understand-Anything  
-**🍴** Forks 4.2k | **🔄** Updated Jun 4, 2026  
-**👤** Lum1104 — interactive code knowledge graph developer, focused on making code "seen, not impressed"
-
-> Claude Code plugin that analyzes entire projects through a multi-agent pipeline, building a knowledge graph of every file, function, class, and dependency, then provides an interactive visual dashboard to explore it all. Supports Claude Code, Codex, Cursor, Copilot, Gemini CLI, and other mainstream platforms. Core capabilities: structural graph exploration (color-coded by architecture layer), business logic domain view (domains → flows → steps), guided tours (learn codebase in dependency order), semantic search ("which parts handle auth?"), diff impact analysis (change ripple effects), persona-adaptive UI (adjusts detail density by role). Also supports knowledge base analysis (Karpathy-pattern LLM wiki) and multi-language output (Chinese/Japanese/Korean/Spanish/Turkish/Russian). Incremental updates (only re-analyzes changed files), graph is JSON and can be committed/shared, large graphs support git-lfs.
-
-**Matched Capabilities:** 📊 Code Graph · 🏗️ Architecture Mapping · 🔍 Semantic Search · 🎭 Multi-Role UI · 🌐 Multi-Language
-
----
-
-## 2. graphify (58.7k ⭐)
+## 1. graphify (59.0k ⭐)
 
 **🔗** https://github.com/safishamsi/graphify  
-**🍴** Forks 6.1k | **🔄** Updated Jun 3, 2026  
+**🍴** Forks 6.2k | **🔄** Updated Jun 3, 2026  
 **👤** Safi (safishamsi) — London-based AI engineer, MSc Data Science (Distinction) from University of Birmingham, focused on healthcare AI and knowledge graphs
 
 > AI coding assistant skill that maps an entire project — code, docs, PDFs, images, videos — into a queryable knowledge graph by running `/graphify .` in your AI agent. Produces three outputs: `graph.html` (interactive node diagram), `GRAPH_REPORT.md` (key concepts & relationship analysis), and `graph.json` (full graph data). Can also generate architecture pages with Mermaid call flow diagrams via `graphify export callflow-html`. Supports 15+ mainstream agent tools including Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, Aider, and OpenClaw. PyPI package `graphifyy`, install via `uv tool install graphifyy`.
@@ -60,7 +48,7 @@
 
 ---
 
-## 3. context7 (56.6k ⭐)
+## 2. context7 (56.7k ⭐)
 
 **🔗** https://github.com/upstash/context7  
 **🍴** Forks 2.7k | **🔄** Updated Jun 3, 2026  
@@ -72,7 +60,19 @@
 
 ---
 
-## 4. CLI-Anything (41.9k ⭐)
+## 3. Understand-Anything (51.4k ⭐)
+
+**🔗** https://github.com/Lum1104/Understand-Anything  
+**🍴** Forks 4.2k | **🔄** Updated Jun 4, 2026  
+**👤** Lum1104 — interactive code knowledge graph developer, focused on making code "seen, not impressed"
+
+> Claude Code plugin that analyzes entire projects through a multi-agent pipeline, building a knowledge graph of every file, function, class, and dependency, then provides an interactive visual dashboard to explore it all. Supports Claude Code, Codex, Cursor, Copilot, Gemini CLI, and other mainstream platforms. Core capabilities: structural graph exploration (color-coded by architecture layer), business logic domain view (domains → flows → steps), guided tours (learn codebase in dependency order), semantic search ("which parts handle auth?"), diff impact analysis (change ripple effects), persona-adaptive UI (adjusts detail density by role). Also supports knowledge base analysis (Karpathy-pattern LLM wiki) and multi-language output (Chinese/Japanese/Korean/Spanish/Turkish/Russian). Incremental updates (only re-analyzes changed files), graph is JSON and can be committed/shared, large graphs support git-lfs.
+
+**Matched Capabilities:** 📊 Code Graph · 🏗️ Architecture Mapping · 🔍 Semantic Search · 🎭 Multi-Role UI · 🌐 Multi-Language
+
+---
+
+## 4. CLI-Anything (42.0k ⭐)
 
 **🔗** https://github.com/HKUDS/CLI-Anything  
 **🍴** Forks 4.0k | **🔄** Updated Jun 3, 2026  
@@ -84,7 +84,7 @@
 
 ---
 
-## 5. GitNexus (41.2k ⭐)
+## 5. GitNexus (41.3k ⭐)
 
 **🔗** https://github.com/abhigyanpatwari/GitNexus  
 **🍴** Forks 4.7k | **🔄** Updated Jun 4, 2026  
@@ -96,10 +96,10 @@
 
 ---
 
-## 6. codegraph (38.8k ⭐)
+## 6. codegraph (39.9k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Forks 2.4k | **🔄** Updated Jun 3, 2026  
+**🍴** Forks 2.5k | **🔄** Updated Jun 4, 2026  
 **👤** Colby McHenry — independent developer with 15+ years of software development experience
 
 > Pre-indexed code knowledge graph providing precise context for AI agents. Runs 100% locally — no servers, no API keys. Supports Claude Code, Codex, Gemini CLI, Cursor, OpenCode, AntiGravity, Kiro, Hermes Agent, and other mainstream platforms. Reduces token consumption and tool calls through pre-built indexing, enabling AI to understand codebase structure more efficiently.
@@ -135,7 +135,7 @@
 ## 9. openapi-generator (26.3k ⭐)
 
 **🔗** https://github.com/OpenAPITools/openapi-generator  
-**🍴** Forks 7.5k | **🔄** Updated Jun 3, 2026  
+**🍴** Forks 7.5k | **🔄** Updated Jun 4, 2026  
 **👤** OpenAPI Tools Community — OpenAPI ecosystem core project
 
 > Given an OpenAPI Spec (v2/v3), automatically generates API client SDKs, server stubs, documentation, and configurations. Supports 50+ programming languages/frameworks, covering Java/Python/TypeScript/Go/Ruby/C#/Rust and other mainstream languages. The industrial-grade standard tool for API spec-driven development and the top choice for generating CLI clients from OpenAPI specs.
@@ -183,7 +183,7 @@
 ## 13. semgrep (15.4k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
-**🍴** Forks 954 | **🔄** Updated Jun 3, 2026  
+**🍴** Forks 955 | **🔄** Updated Jun 4, 2026  
 **👤** Semgrep Inc. (formerly r2c / Return To Corp) — code security analysis company
 
 > Semantic grep for code. Finds bug variants using **patterns that look like source code** — no ASTs, regular expressions, or complex DSLs needed. Supports 30+ languages (Apex/Bash/C/C++/C#/Go/Java/JavaScript/Kotlin/Python/Ruby/Rust/Swift/TypeScript, etc.). While `grep "2"` only matches the string "2", Semgrep can match semantically equivalent "2" in `x=1; y=x+1`. Custom rules can batch-extract API call patterns, route definitions, and security vulnerabilities from code. The open-source version is limited to single-function/file analysis; the enterprise edition supports cross-file and cross-function data flow analysis.
@@ -228,7 +228,7 @@
 
 ---
 
-## 17. OpenDeepWiki (3.1k ⭐)
+## 17. OpenDeepWiki (3.3k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Forks 421 | **🔄** Updated Jun 1, 2026  
@@ -291,7 +291,7 @@
 ## 22. CodeWiki (1.1k ⭐)
 
 **🔗** https://github.com/FSoft-AI4Code/CodeWiki  
-**🍴** Forks 86 | **🔄** Updated Jun 3, 2026  
+**🍴** Forks 183 | **🔄** Updated May 27, 2026  
 **👤** FSoft AI4Code — AI code research team under Vietnam's FPT Software
 
 > ACL 2026 paper open-source project — holistic structured documentation generation framework for large-scale codebases. Uses dynamic programming-inspired hierarchical decomposition strategy, supporting codebases of any size (tested 86K-1.4M LOC). Recursive multi-agent system (cluster-analyzer → file-analyzer → doc-generator → validator) analyzes layer by layer: clustering → file-level analysis → documentation generation → cross-validation. Supports 8 programming languages (Python/Java/JavaScript/TypeScript/C++/C#/Go/Rust), generates cross-module interaction analysis, Mermaid architecture diagrams, and visual artifacts. Supports multiple LLM providers (OpenAI/Anthropic/AWS Bedrock/Azure), and subscription mode via Claude Code/Codex CLI (no API key required).
@@ -315,10 +315,10 @@
 ## Category Index
 
 ### 🏗️ Code Graph & Architecture Analysis
-- [Understand-Anything](#1-understand-anything-514k-) — multi-agent pipeline builds interactive knowledge graph + dashboard
-- [graphify](#2-graphify-587k-) — code/docs → queryable knowledge graph + call flow
-- [GitNexus](#5-gitnexus-412k-) — CLI+MCP code nervous system, agent integration
-- [codegraph](#6-codegraph-388k-) — pre-indexed code knowledge graph, local-first
+- [graphify](#1-graphify-590k-) — code/docs → queryable knowledge graph + call flow
+- [Understand-Anything](#3-understand-anything-514k-) — multi-agent pipeline builds interactive knowledge graph + dashboard
+- [GitNexus](#5-gitnexus-413k-) — CLI+MCP code nervous system, agent integration
+- [codegraph](#6-codegraph-399k-) — pre-indexed code knowledge graph, local-first
 - [tree-sitter](#10-tree-sitter-257k-) — foundational parsing, 200+ language AST/CST
 - [code-review-graph](#11-code-review-graph-180k-) — local code graph, blast radius analysis
 - [joern](#18-joern-32k-) — code property graph (CPG) analysis platform
@@ -326,9 +326,9 @@
 - [semgrep](#13-semgrep-154k-) — semantic grep, multi-language pattern matching
 
 ### 📝 API Extraction & Documentation
-- [context7](#3-context7-566k-) — real-time code documentation context for LLMs
+- [context7](#2-context7-567k-) — real-time code documentation context for LLMs
 - [smart-doc](#19-smart-doc-16k-) — Java zero-intrusion API docs, source analysis
-- [OpenDeepWiki](#17-opendeepwiki-31k-) — AI-driven repo → Wiki + MCP
+- [OpenDeepWiki](#17-opendeepwiki-33k-) — AI-driven repo → Wiki + MCP
 - [deepwiki-rs](#23-deepwiki-rs-10k-) — Rust code documentation engine
 - [CodeWiki](#22-codewiki-11k-) — ACL 2026 paper, repository-level documentation
 - [swagger-ui](#7-swagger-ui-288k-) — interactive API documentation standard
@@ -336,7 +336,7 @@
 - [Redocly CLI](#20-redocly-cli-15k-) — OpenAPI lint + documentation rendering
 
 ### 🔌 CLI Conversion & Frameworks
-- [CLI-Anything](#4-cli-anything-419k-) — software → agent-native CLI
+- [CLI-Anything](#4-cli-anything-420k-) — software → agent-native CLI
 - [python-fire](#8-googlepython-fire-282k-) — Python object → CLI
 - [oclif](#15-oclif-95k-) — Node.js CLI framework (Heroku/Salesforce)
 - [swagger-codegen](#12-swagger-codegen-178k-) — Swagger → code/CLI
@@ -345,7 +345,7 @@
 - [open-code-review](#21-open-code-review-12k-) — Alibaba open-source AI code review, deterministic + agent hybrid
 - [semble](#16-semble-48k-) — agent semantic code search, saves 98% tokens
 - [code-review-graph](#11-code-review-graph-180k-) — blast radius analysis, saves 6.8-49× tokens
-- [codegraph](#6-codegraph-388k-) — pre-indexed graph, reduces tool calls
+- [codegraph](#6-codegraph-399k-) — pre-indexed graph, reduces tool calls
 
 ---
 
