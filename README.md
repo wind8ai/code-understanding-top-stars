@@ -10,12 +10,12 @@
 
 ## Contents
 
-01. [Understand-Anything — 51.4k ⭐](#1-understand-anything-514k-)
-02. [graphify — 58.7k ⭐](#2-graphify-587k-)
-03. [context7 — 56.6k ⭐](#3-context7-566k-)
-04. [CLI-Anything — 41.9k ⭐](#4-cli-anything-419k-)
-05. [GitNexus — 41.2k ⭐](#5-gitnexus-412k-)
-06. [codegraph — 38.8k ⭐](#6-codegraph-388k-)
+01. [graphify — 59.0k ⭐](#1-graphify-590k-)
+02. [context7 — 56.7k ⭐](#2-context7-567k-)
+03. [Understand-Anything — 51.4k ⭐](#3-understand-anything-514k-)
+04. [CLI-Anything — 42.0k ⭐](#4-cli-anything-420k-)
+05. [GitNexus — 41.3k ⭐](#5-gitnexus-413k-)
+06. [codegraph — 39.9k ⭐](#6-codegraph-399k-)
 07. [swagger-ui — 28.8k ⭐](#7-swagger-ui-288k-)
 08. [google/python-fire — 28.2k ⭐](#8-googlepython-fire-282k-)
 09. [openapi-generator — 26.3k ⭐](#9-openapi-generator-263k-)
@@ -26,7 +26,7 @@
 14. [codeql — 9.7k ⭐](#14-codeql-97k-)
 15. [oclif — 9.5k ⭐](#15-oclif-95k-)
 16. [semble — 4.8k ⭐](#16-semble-48k-)
-17. [OpenDeepWiki — 3.1k ⭐](#17-opendeepwiki-31k-)
+17. [OpenDeepWiki — 3.3k ⭐](#17-opendeepwiki-33k-)
 18. [joern — 3.2k ⭐](#18-joern-32k-)
 19. [smart-doc — 1.6k ⭐](#19-smart-doc-16k-)
 20. [Redocly CLI — 1.5k ⭐](#20-redocly-cli-15k-)
@@ -36,22 +36,10 @@
 
 ---
 
-## 1. Understand-Anything (51.4k ⭐)
-
-**🔗** https://github.com/Lum1104/Understand-Anything  
-**🍴** Fork 4.2k | **🔄** Updated Jun 4, 2026  
-**👤** Lum1104 — 交互式代码知识图谱开发者，专注于让代码"可被看见而非 impress"
-
-> Claude Code 插件，通过多 Agent 管线分析整个项目，构建包含每个文件、函数、类和依赖的知识图谱，并提供交互式可视化仪表盘来探索一切。支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等主流平台。核心能力：结构化图谱探索（按架构层着色）、业务逻辑域视图（domains → flows → steps）、引导式导览（按依赖顺序学习代码）、语义搜索（"哪些部分处理认证？"）、Diff 影响分析（变更波及范围）、Persona 自适应 UI（根据角色调整细节密度）。还支持知识库分析（Karpathy-pattern LLM wiki）和多语言输出（中/日/韩/西/土/俄）。增量更新（只重分析变更文件），图谱为 JSON 可提交共享，大型图谱支持 git-lfs。
-
-**匹配能力：** 📊 代码图谱 · 🏗️ 架构梳理 · 🔍 语义搜索 · 🎭 多角色 UI · 🌐 多语言
-
----
-
-## 2. graphify (58.7k ⭐)
+## 1. graphify (59.0k ⭐)
 
 **🔗** https://github.com/safishamsi/graphify  
-**🍴** Fork 6.1k | **🔄** Updated Jun 3, 2026  
+**🍴** Fork 6.2k | **🔄** Updated Jun 3, 2026  
 **👤** Safi (safishamsi) — 伦敦 AI 工程师，伯明翰大学数据科学硕士（Distinction），专注医疗 AI 与知识图谱
 
 > AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PDF、图片、视频——映射为可查询的知识图谱。产出三个文件：`graph.html`（交互式节点图）、`GRAPH_REPORT.md`（关键概念与关联分析）、`graph.json`（完整图谱数据）。还可通过 `graphify export callflow-html` 生成带 Mermaid 调用流图的架构页面。支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI、GitHub Copilot CLI、Aider、OpenClaw 等 15+ 主流 Agent 工具。PyPI 包名 `graphifyy`，通过 `uv tool install graphifyy` 安装。
@@ -60,7 +48,7 @@
 
 ---
 
-## 3. context7 (56.6k ⭐)
+## 2. context7 (56.7k ⭐)
 
 **🔗** https://github.com/upstash/context7  
 **🍴** Fork 2.7k | **🔄** Updated Jun 3, 2026  
@@ -72,7 +60,19 @@
 
 ---
 
-## 4. CLI-Anything (41.9k ⭐)
+## 3. Understand-Anything (51.4k ⭐)
+
+**🔗** https://github.com/Lum1104/Understand-Anything  
+**🍴** Fork 4.2k | **🔄** Updated Jun 4, 2026  
+**👤** Lum1104 — 交互式代码知识图谱开发者，专注于让代码"可被看见而非 impress"
+
+> Claude Code 插件，通过多 Agent 管线分析整个项目，构建包含每个文件、函数、类和依赖的知识图谱，并提供交互式可视化仪表盘来探索一切。支持 Claude Code、Codex、Cursor、Copilot、Gemini CLI 等主流平台。核心能力：结构化图谱探索（按架构层着色）、业务逻辑域视图（domains → flows → steps）、引导式导览（按依赖顺序学习代码）、语义搜索（"哪些部分处理认证？"）、Diff 影响分析（变更波及范围）、Persona 自适应 UI（根据角色调整细节密度）。还支持知识库分析（Karpathy-pattern LLM wiki）和多语言输出（中/日/韩/西/土/俄）。增量更新（只重分析变更文件），图谱为 JSON 可提交共享，大型图谱支持 git-lfs。
+
+**匹配能力：** 📊 代码图谱 · 🏗️ 架构梳理 · 🔍 语义搜索 · 🎭 多角色 UI · 🌐 多语言
+
+---
+
+## 4. CLI-Anything (42.0k ⭐)
 
 **🔗** https://github.com/HKUDS/CLI-Anything  
 **🍴** Fork 4.0k | **🔄** Updated Jun 3, 2026  
@@ -84,7 +84,7 @@
 
 ---
 
-## 5. GitNexus (41.2k ⭐)
+## 5. GitNexus (41.3k ⭐)
 
 **🔗** https://github.com/abhigyanpatwari/GitNexus  
 **🍴** Fork 4.7k | **🔄** Updated Jun 4, 2026  
@@ -96,10 +96,10 @@
 
 ---
 
-## 6. codegraph (38.8k ⭐)
+## 6. codegraph (39.9k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Fork 2.4k | **🔄** Updated Jun 3, 2026  
+**🍴** Fork 2.5k | **🔄** Updated Jun 4, 2026  
 **👤** Colby McHenry — 15+ 年软件开发经验的独立开发者
 
 > 预索引代码知识图谱，为 AI Agent 提供精准上下文。100% 本地运行，无需服务器、无需 API key。支持 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、AntiGravity、Kiro、Hermes Agent 等主流平台。通过预建索引减少 token 消耗和工具调用次数，让 AI 更高效地理解代码库结构。
@@ -135,7 +135,7 @@
 ## 9. openapi-generator (26.3k ⭐)
 
 **🔗** https://github.com/OpenAPITools/openapi-generator  
-**🍴** Fork 7.5k | **🔄** Updated Jun 3, 2026  
+**🍴** Fork 7.5k | **🔄** Updated Jun 4, 2026  
 **👤** OpenAPI Tools 社区 — OpenAPI 生态核心项目
 
 > 给定 OpenAPI Spec（v2/v3），自动生成 API 客户端 SDK、服务端桩代码、文档和配置。支持 50+ 编程语言/框架，涵盖 Java/Python/TypeScript/Go/Ruby/C#/Rust 等主流语言。是 API 规范驱动开发的工业级标准工具，也是从 OpenAPI Spec 生成 CLI 客户端的首选方案。
@@ -183,7 +183,7 @@
 ## 13. semgrep (15.4k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
-**🍴** Fork 954 | **🔄** Updated Jun 3, 2026  
+**🍴** Fork 955 | **🔄** Updated Jun 4, 2026  
 **👤** Semgrep Inc.（前 r2c / Return To Corp）— 代码安全分析公司
 
 > 面向代码的语义 grep。用**看起来像源代码的模式**查找 Bug 变体——不需要 AST、正则表达式或复杂 DSL。支持 30+ 语言（Apex/Bash/C/C++/C#/Go/Java/JavaScript/Kotlin/Python/Ruby/Rust/Swift/TypeScript 等）。用 `grep "2"` 只能匹配字符串 "2"，而 Semgrep 能匹配 `x=1; y=x+1` 中语义等价的 "2"。可自定义规则批量提取代码中的 API 调用模式、路由定义、安全漏洞。开源版限单函数/文件分析，企业版支持跨文件跨函数数据流分析。
@@ -228,7 +228,7 @@
 
 ---
 
-## 17. OpenDeepWiki (3.1k ⭐)
+## 17. OpenDeepWiki (3.3k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
 **🍴** Fork 421 | **🔄** Updated Jun 1, 2026  
@@ -282,7 +282,7 @@
 **🍴** Fork 80 | **🔄** Updated Jun 4, 2026  
 **👤** 阿里巴巴 — 源自阿里内部官方 AI 代码审查助手，服务数万开发者，识别百万级代码缺陷
 
-> 开源 AI 代码审查 CLI。读取 Git diff，通过具备工具调用能力的 Agent 将变更文件发送给可配置 LLM，生成行级精的结构化审查意见。核心设计：**确定性工程 × Agent 混合架构**——对不能出错的审查步骤用工程逻辑硬约束（精准文件选择、智能文件打包、细粒度规则匹配、外部定位与反思模块），对动态决策用 Agent（场景化提示词与工具集）。支持 workspace 模式、分支范围对比、单 commit 审查。可集成到 Claude Code（Plugin/Skill）、Codex 等编码 Agent 作为 slash command。支持 CI/CD 集成（GitHub Actions / GitLab CI），提供 GitHub 官方规则集（NPE、线程安全、XSS、SQL 注入等）。Go 语言实现，通过 NPM 分发多平台二进制。
+> 开源 AI 代码审查 CLI。读取 Git diff，通过具备工具调用能力的 Agent 将变更文件发送给可配置 LLM，生成行级精度的结构化审查意见。核心设计：**确定性工程 × Agent 混合架构**——对不能出错的审查步骤用工程逻辑硬约束（精准文件选择、智能文件打包、细粒度规则匹配、外部定位与反思模块），对动态决策用 Agent（场景化提示词与工具集）。支持 workspace 模式、分支范围对比、单 commit 审查。可集成到 Claude Code（Plugin/Skill）、Codex 等编码 Agent 作为 slash command。支持 CI/CD 集成（GitHub Actions / GitLab CI），提供阿里官方规则集（NPE、线程安全、XSS、SQL 注入等）。Go 语言实现，通过 NPM 分发多平台二进制。
 
 **匹配能力：** 🔍 AI 代码审查 · 🏗️ 确定性+Agent 混合架构 · 📐 规则匹配 · 🤖 CI/CD 集成
 
@@ -291,7 +291,7 @@
 ## 22. CodeWiki (1.1k ⭐)
 
 **🔗** https://github.com/FSoft-AI4Code/CodeWiki  
-**🍴** Fork 86 | **🔄** Updated Jun 3, 2026  
+**🍴** Fork 183 | **🔄** Updated May 27, 2026  
 **👤** FSoft AI4Code — 越南 FPT Software 旗下 AI 代码研究团队
 
 > ACL 2026 论文开源项目——面向大规模代码库的整体结构化文档生成框架。采用动态规划启发的分层分解策略，支持任意规模代码库（实测 86K-1.4M LOC）。通过递归多 Agent 系统（cluster-analyzer → file-analyzer → doc-generator → validator）逐层分析：聚类→文件级分析→文档生成→交叉验证。支持 8 种编程语言（Python/Java/JavaScript/TypeScript/C++/C#/Go/Rust），可生成跨模块交互分析、Mermaid 架构图和可视化产物。支持多种 LLM 提供商（OpenAI/Anthropic/AWS Bedrock/Azure），也支持订阅模式（Claude Code/Codex CLI，无需 API key）。
@@ -315,10 +315,10 @@
 ## 分类索引
 
 ### 🏗️ 代码图谱 & 架构分析
-- [Understand-Anything](#1-understand-anything-514k-) — 多 Agent 管线构建交互式知识图谱 + 仪表盘
-- [graphify](#2-graphify-587k-) — 代码/文档 → 可查询知识图谱 + 调用流
-- [GitNexus](#5-gitnexus-412k-) — CLI+MCP 代码神经系统，Agent 集成
-- [codegraph](#6-codegraph-388k-) — 预索引代码知识图谱，本地优先
+- [graphify](#1-graphify-590k-) — 代码/文档 → 可查询知识图谱 + 调用流
+- [Understand-Anything](#3-understand-anything-514k-) — 多 Agent 管线构建交互式知识图谱 + 仪表盘
+- [GitNexus](#5-gitnexus-413k-) — CLI+MCP 代码神经系统，Agent 集成
+- [codegraph](#6-codegraph-399k-) — 预索引代码知识图谱，本地优先
 - [tree-sitter](#10-tree-sitter-257k-) — 底层解析基石，200+ 语言 AST/CST
 - [code-review-graph](#11-code-review-graph-180k-) — 本地代码图谱，爆炸半径分析
 - [joern](#18-joern-32k-) — 代码属性图（CPG）分析平台
@@ -326,9 +326,9 @@
 - [semgrep](#13-semgrep-154k-) — 语义 grep，多语言模式匹配
 
 ### 📝 API 提取 & 文档生成
-- [context7](#3-context7-566k-) — LLM 实时代码文档上下文
+- [context7](#2-context7-567k-) — LLM 实时代码文档上下文
 - [smart-doc](#19-smart-doc-16k-) — Java 零侵入 API 文档，源码分析
-- [OpenDeepWiki](#17-opendeepwiki-31k-) — AI 驱动仓库 → Wiki + MCP
+- [OpenDeepWiki](#17-opendeepwiki-33k-) — AI 驱动仓库 → Wiki + MCP
 - [deepwiki-rs](#23-deepwiki-rs-10k-) — Rust 代码文档引擎
 - [CodeWiki](#22-codewiki-11k-) — ACL 2026 论文，仓库级文档生成
 - [swagger-ui](#7-swagger-ui-288k-) — 交互式 API 文档标准
@@ -336,7 +336,7 @@
 - [Redocly CLI](#20-redocly-cli-15k-) — OpenAPI lint + 文档渲染
 
 ### 🔌 CLI 转化 & 框架
-- [CLI-Anything](#4-cli-anything-419k-) — 软件 → Agent-Native CLI
+- [CLI-Anything](#4-cli-anything-420k-) — 软件 → Agent-Native CLI
 - [python-fire](#8-googlepython-fire-282k-) — Python 对象 → CLI
 - [oclif](#15-oclif-95k-) — Node.js CLI 框架（Heroku/Salesforce）
 - [swagger-codegen](#12-swagger-codegen-178k-) — Swagger → 代码/CLI
@@ -345,7 +345,7 @@
 - [open-code-review](#21-open-code-review-12k-) — 阿里开源 AI 代码审查，确定性+Agent 混合
 - [semble](#16-semble-48k-) — Agent 语义代码搜索，省 98% token
 - [code-review-graph](#11-code-review-graph-180k-) — 爆炸半径分析，省 6.8-49× token
-- [codegraph](#6-codegraph-388k-) — 预索引图谱，减少工具调用
+- [codegraph](#6-codegraph-399k-) — 预索引图谱，减少工具调用
 
 ---
 
