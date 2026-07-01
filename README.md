@@ -140,7 +140,7 @@
 **🍴** Fork 2.8k | **🔄** Updated 2026-06-27  
 **👤** getzep — 开源开发者
 
-> （待补充中文描述）
+> 为 AI Agent 构建实时知识图谱，支持时序记忆与动态关系更新。常用于 RAG、长期上下文与 agent 记忆层。
 
 **匹配能力**：📊 代码图谱 · 🏗️ 架构梳理
 
@@ -200,7 +200,7 @@
 **🍴** Fork 3.5k | **🔄** Updated 2026-06-29  
 **👤** networkx — 开源开发者
 
-> （待补充中文描述）
+> Python 生态最主流的图论与复杂网络分析库，提供图算法、生成与可视化能力，常被代码图谱工具用作底层数据结构。
 
 **匹配能力**：🏗️ 架构梳理
 
@@ -332,7 +332,7 @@
 **🍴** Fork 140 | **🔄** Updated 2024-12-23  
 **👤** OpenBMB — 开源开发者
 
-> （待补充中文描述）
+> LLM 驱动的仓库 Agent，帮助开发者与团队快速生成文档、梳理模块结构并理解代码库全貌。
 
 **匹配能力**：🏗️ 架构梳理
 
@@ -344,7 +344,7 @@
 **🍴** Fork 118 | **🔄** Updated 2026-02-06  
 **👤** archguard — 开源开发者
 
-> （待补充中文描述）
+> 架构治理工作台，支持容器/组件/代码多级架构分析、架构适应度函数与系统依赖洞察，面向架构梳理与治理场景。
 
 **匹配能力**：🏗️ 架构梳理
 
@@ -383,13 +383,13 @@
 
 ### 🔍 代码审查与语义搜索
 
-- [graphiti](#9-getzepgraphiti-28k-) — （待补充中文描述）
+- [graphiti](#9-getzepgraphiti-28k-) — 为 AI Agent 构建实时知识图谱，支持时序记忆与动态关系更新
 - [code-review-graph](#12-tirth8205code-review-graph-19k-) — 停止烧 Token，开始智能审查
-- [networkx](#14-networkxnetworkx-17k-) — （待补充中文描述）
+- [networkx](#14-networkxnetworkx-17k-) — Python 生态最主流的图论与复杂网络分析库，提供图算法、生成与可视化能力，常被代码图谱工具用作底层数据结构
 - [open-code-review](#17-alibabaopen-code-review-97k-) — 开源 AI 代码审查 CLI
 - [semble](#19-minishlabsemble-55k-) — 面向 Agent 的快速精准代码搜索工具
-- [RepoAgent](#25-openbmbrepoagent-996-) — （待补充中文描述）
-- [archguard](#26-archguardarchguard-668-) — （待补充中文描述）
+- [RepoAgent](#25-openbmbrepoagent-996-) — LLM 驱动的仓库 Agent，帮助开发者与团队快速生成文档、梳理模块结构并理解代码库全貌
+- [archguard](#26-archguardarchguard-668-) — 架构治理工作台，支持容器/组件/代码多级架构分析、架构适应度函数与系统依赖洞察，面向架构梳理与治理场景
 
 
 ---
