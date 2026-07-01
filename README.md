@@ -65,7 +65,7 @@
 ## 3. upstash/context7 (58k ⭐)
 
 **🔗** https://github.com/upstash/context7  
-**🍴** Fork 2.7k | **🔄** Updated 2026-06-30  
+**🍴** Fork 2.7k | **🔄** Updated 2026-07-01  
 **👤** Upstash — Serverless Data Platform 公司，提供 Redis/向量数据库/消息队列等云服务
 
 > 为 LLM 和 AI 代码编辑器提供最新代码文档的上下文平台。解决 LLM 训练数据过时导致的代码幻觉问题——不再生成过时 API 和已弃用的用法。通过 MCP 服务器集成到 Cursor、Claude Code、Windsurf 等 AI 编辑器中，在提示词中加入 `use context7` 即可自动拉取目标库的最新文档和代码示例，注入 LLM 上下文。支持数千个开源库的实时文档索引。
@@ -77,7 +77,7 @@
 ## 4. colbymchenry/codegraph (57k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Fork 3.5k | **🔄** Updated 2026-06-30  
+**🍴** Fork 3.5k | **🔄** Updated 2026-07-01  
 **👤** Colby McHenry — 15+ 年软件开发经验的独立开发者
 
 > 预索引代码知识图谱，为 AI Agent 提供精准上下文。100% 本地运行，无需服务器、无需 API key。支持 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、AntiGravity、Kiro、Hermes Agent 等主流平台。通过预建索引减少 token 消耗和工具调用次数，让 AI 更高效地理解代码库结构。
@@ -233,7 +233,7 @@
 ## 17. alibaba/open-code-review (9.7k ⭐)
 
 **🔗** https://github.com/alibaba/open-code-review  
-**🍴** Fork 631 | **🔄** Updated 2026-07-01  
+**🍴** Fork 632 | **🔄** Updated 2026-07-01  
 **👤** 阿里巴巴 — 源自阿里内部官方 AI 代码审查助手，服务数万开发者，识别百万级代码缺陷
 
 > 开源 AI 代码审查 CLI。读取 Git diff，通过具备工具调用能力的 Agent 将变更文件发送给可配置 LLM，生成行级精度的结构化审查意见。核心设计：**确定性工程 × Agent 混合架构**——对不能出错的审查步骤用工程逻辑硬约束（精准文件选择、智能文件打包、细粒度规则匹配、外部定位与反思模块），对动态决策用 Agent（场景化提示词与工具集）。支持 workspace 模式、分支范围对比、单 commit 审查。可集成到 Claude Code（Plugin/Skill）、Codex 等编码 Agent 作为 slash command。支持 CI/CD 集成（GitHub Actions / GitLab CI），提供阿里官方规则集（NPE、线程安全、XSS、SQL 注入等）。Go 语言实现，通过 NPM 分发多平台二进制。

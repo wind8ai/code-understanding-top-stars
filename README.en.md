@@ -65,7 +65,7 @@
 ## 3. upstash/context7 (58k ⭐)
 
 **🔗** https://github.com/upstash/context7  
-**🍴** Forks 2.7k | **🔄** Updated 2026-06-30  
+**🍴** Forks 2.7k | **🔄** Updated 2026-07-01  
 **👤** Upstash — Serverless Data Platform company providing Redis/vector database/message queue cloud services
 
 > Provides up-to-date code documentation context for LLMs and AI code editors. Solves the code hallucination problem caused by outdated LLM training data — no more generating obsolete APIs and deprecated usage patterns. Integrates via MCP server into AI editors like Cursor, Claude Code, and Windsurf. Adding `use context7` to prompts automatically pulls the latest documentation and code examples for target libraries, injecting them into LLM context. Supports real-time documentation indexing for thousands of open-source libraries.
@@ -77,7 +77,7 @@
 ## 4. colbymchenry/codegraph (57k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Forks 3.5k | **🔄** Updated 2026-06-30  
+**🍴** Forks 3.5k | **🔄** Updated 2026-07-01  
 **👤** Colby McHenry — independent developer with 15+ years of software development experience
 
 > Pre-indexed code knowledge graph providing precise context for AI agents. Runs 100% locally — no servers, no API keys. Supports Claude Code, Codex, Gemini CLI, Cursor, OpenCode, AntiGravity, Kiro, Hermes Agent, and other mainstream platforms. Reduces token consumption and tool calls through pre-built indexing, enabling AI to understand codebase structure more efficiently.
@@ -233,7 +233,7 @@
 ## 17. alibaba/open-code-review (9.7k ⭐)
 
 **🔗** https://github.com/alibaba/open-code-review  
-**🍴** Forks 631 | **🔄** Updated 2026-07-01  
+**🍴** Forks 632 | **🔄** Updated 2026-07-01  
 **👤** Alibaba — originated from Alibaba's internal official AI code review assistant, serving tens of thousands of developers and identifying millions of code defects
 
 > Open-source AI-powered code review CLI. Reads Git diffs, sends changed files to a configurable LLM via an agent with tool-use capabilities, and generates structured review comments with line-level precision. Core design: **deterministic engineering × agent hybrid architecture** — uses hard engineering constraints for review steps that must not go wrong (precise file selection, smart file bundling, fine-grained rule matching, external positioning and reflection modules), while the agent handles dynamic decisions (scenario-tuned prompts and toolsets). Supports workspace mode, branch comparison, and single-commit review. Integrates into Claude Code (Plugin/Skill), Codex, and other coding agents as a slash command. Supports CI/CD integration (GitHub Actions / GitLab CI), with built-in Alibaba official ruleset (NPE, thread-safety, XSS, SQL injection, etc.). Go implementation, multi-platform binaries distributed via NPM.
