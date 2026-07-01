@@ -46,7 +46,7 @@
 
 > AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.
 
-**Capabilities:** 📊 代码图谱 · 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -58,7 +58,7 @@
 
 > Graphs that teach > graphs that impress. Turn any code into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.
 
-**Capabilities:** 📊 代码图谱 · 🔌 CLI 转化 · 🔍 语义搜索 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🔌 CLI 转化 · 🔍 语义搜索 · 🏗️ 架构梳理
 
 ---
 
@@ -70,7 +70,7 @@
 
 > Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors
 
-**Capabilities:** 📝 文档生成 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🏗️ 架构梳理
 
 ---
 
@@ -82,7 +82,7 @@
 
 > Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local
 
-**Capabilities:** 📊 代码图谱 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🏗️ 架构梳理
 
 ---
 
@@ -94,7 +94,7 @@
 
 > "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub: https://clianything.cc/
 
-**Capabilities:** 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -106,7 +106,7 @@
 
 > GitNexus: The Zero-Server Code Intelligence Engine -       GitNexus is a client-side knowledge graph creator that runs entirely in your browser. Drop in a git repository (Github, Gitlab, Azure, Local) or ZIP file, and get an interactive knowledge graph with a built in Graph RAG Agent. Perfect for code exploration
 
-**Capabilities:** 📊 代码图谱 · 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -118,7 +118,7 @@
 
 > Swagger UI is a collection of HTML, JavaScript, and CSS assets that dynamically generate beautiful documentation from a Swagger-compliant API.
 
-**Capabilities:** 📝 文档生成 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🏗️ 架构梳理
 
 ---
 
@@ -130,7 +130,7 @@
 
 > 从任意 Python 对象自动生成命令行接口。无需装饰器、参数定义或配置文件，直接将函数、类、模块、字典甚至对象实例转为完整可用的 CLI——包括子命令、参数推断、帮助文档。是最快的"代码→CLI"转化路径。
 
-**Capabilities:** 🔌 代码→CLI 转化 · ⚡ 极速原型
+**Capabilities：** 🔌 代码→CLI 转化 · ⚡ 极速原型
 
 ---
 
@@ -142,7 +142,7 @@
 
 > Build Real-Time Knowledge Graphs for AI Agents
 
-**Capabilities:** 📊 代码图谱 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🏗️ 架构梳理
 
 ---
 
@@ -154,7 +154,7 @@
 
 > OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)
 
-**Capabilities:** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -166,7 +166,7 @@
 
 > An incremental parsing system for programming tools
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
 ---
 
@@ -178,7 +178,7 @@
 
 > Local-first code intelligence graph for MCP and CLI. Builds a persistent map of your codebase so AI coding tools read only what matters, with benchmarked context reductions on reviews and large-repo workflows.
 
-**Capabilities:** 📊 代码图谱 · 🔌 CLI 转化 · 🔍 语义搜索 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🔌 CLI 转化 · 🔍 语义搜索 · 🏗️ 架构梳理
 
 ---
 
@@ -190,7 +190,7 @@
 
 > swagger-codegen contains a template-driven engine to generate documentation, API clients and server stubs in different languages by parsing your OpenAPI / Swagger definition.
 
-**Capabilities:** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -202,7 +202,7 @@
 
 > Network Analysis in Python
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
 ---
 
@@ -214,7 +214,7 @@
 
 > Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
 ---
 
@@ -226,7 +226,7 @@
 
 > CodeQL: the libraries and queries that power security researchers around the world, as well as code scanning in GitHub Advanced Security
 
-**Capabilities:** 🔍 语义搜索 · 🏗️ 架构梳理
+**Capabilities：** 🔍 语义搜索 · 🏗️ 架构梳理
 
 ---
 
@@ -238,7 +238,7 @@
 
 > Open-source & free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.
 
-**Capabilities:** 📊 代码图谱 · 🔍 语义搜索 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🔍 语义搜索 · 🏗️ 架构梳理
 
 ---
 
@@ -250,7 +250,7 @@
 
 > CLI for generating, building, and releasing oclif CLIs. Built by Salesforce.
 
-**Capabilities:** 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -262,7 +262,7 @@
 
 > Fast and Accurate Code Search for Agents. Uses ~98% fewer tokens than grep+read
 
-**Capabilities:** 🔍 语义搜索 · 🏗️ 架构梳理
+**Capabilities：** 🔍 语义搜索 · 🏗️ 架构梳理
 
 ---
 
@@ -274,7 +274,7 @@
 
 > OpenDeepWiki is the open-source version of the DeepWiki project, aiming to provide a powerful knowledge management and collaboration platform. The project is mainly developed using C# and TypeScript, supporting modular design, and is easy to expand and customize.
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
 ---
 
@@ -286,7 +286,7 @@
 
 > Open-source code analysis platform for C/C++/Java/Binary/Javascript/Python/Kotlin based on code property graphs. Discord https://discord.gg/vv4MH284Hc
 
-**Capabilities:** 📊 代码图谱 · 🏗️ 架构梳理
+**Capabilities：** 📊 代码图谱 · 🏗️ 架构梳理
 
 ---
 
@@ -298,7 +298,7 @@
 
 > ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any standard, generate beautiful docs, and more.
 
-**Capabilities:** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🔌 CLI 转化 · 🏗️ 架构梳理
 
 ---
 
@@ -310,7 +310,7 @@
 
 > [ACL 2026] Open-source framework for holistic, structured repository-level documentation across multilingual codebases
 
-**Capabilities:** 📝 文档生成 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🏗️ 架构梳理
 
 ---
 
@@ -322,7 +322,7 @@
 
 > Turn code into clarity. Generate accurate technical docs and AI-ready context in minutes—perfectly structured for human teams and intelligent agents.
 
-**Capabilities:** 📝 文档生成 · 🏗️ 架构梳理
+**Capabilities：** 📝 文档生成 · 🏗️ 架构梳理
 
 ---
 
@@ -334,7 +334,7 @@
 
 > 代码仓库 Agent，自动分析与代码交互
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
 ---
 
@@ -346,26 +346,50 @@
 
 > 架构治理平台，代码架构分析与可视化
 
-**Capabilities:** 🏗️ 架构梳理
+**Capabilities：** 🏗️ 架构梳理
 
----## Category Index
-
+---
+## Category Index
 
 ### 🏗️ 代码图谱与架构分析
 
-_（对齐中：按匹配能力分组补锚点）_
+- [graphify](#safishamsigraphify-75k-) — AI coding assistant skill (Claude Code, Codex, OpenCode, Cur…
+- [Understand-Anything](#egonex-aiunderstand-anything-70k-) — Graphs that teach > graphs that impress. Turn any code into …
+- [codegraph](#colbymchenrycodegraph-56k-) — Pre-indexed code knowledge graph, auto syncs on code changes…
+- [GitNexus](#abhigyanpatwarigitnexus-43k-) — GitNexus: The Zero-Server Code Intelligence Engine -       G…
+- [tree-sitter](#tree-sittertree-sitter-26k-) — An incremental parsing system for programming tools
+- [code-review-graph](#tirth8205code-review-graph-19k-) — Local-first code intelligence graph for MCP and CLI. Builds …
+- [semgrep](#semgrepsemgrep-16k-) — Lightweight static analysis for many languages. Find bug var…
+- [codeql](#githubcodeql-98k-) — CodeQL: the libraries and queries that power security resear…
+- [joern](#joerniojoern-33k-) — Open-source code analysis platform for C/C++/Java/Binary/Jav…
 
 ### 📝 API 提取与文档生成
 
-_（对齐中：按匹配能力分组补锚点）_
+- [context7](#upstashcontext7-58k-) — Context7 Platform -- Up-to-date code documentation for LLMs …
+- [swagger-ui](#swagger-apiswagger-ui-29k-) — Swagger UI is a collection of HTML, JavaScript, and CSS asse…
+- [openapi-generator](#openapitoolsopenapi-generator-26k-) — OpenAPI Generator allows generation of API client libraries …
+- [swagger-codegen](#swagger-apiswagger-codegen-18k-) — swagger-codegen contains a template-driven engine to generat…
+- [OpenDeepWiki](#aidotnetopendeepwiki-34k-) — OpenDeepWiki is the open-source version of the DeepWiki proj…
+- [redocly-cli](#redoclyredocly-cli-15k-) — ⚒️ Redocly CLI makes OpenAPI easy. Lint/validate to any stan…
+- [CodeWiki](#fsoft-ai4codecodewiki-13k-) — [ACL 2026] Open-source framework for holistic, structured re…
+- [deepwiki-rs](#sopacodeepwiki-rs-12k-) — Turn code into clarity. Generate accurate technical docs and…
 
 ### 🔌 CLI 转化与框架
 
-_（对齐中：按匹配能力分组补锚点）_
+- [CLI-Anything](#hkudscli-anything-44k-) — "CLI-Anything: Making ALL Software Agent-Native" -- CLI-Hub:…
+- [python-fire](#googlepython-fire-28k-) — 从任意 Python 对象自动生成命令行接口…
+- [oclif](#oclifoclif-96k-) — CLI for generating, building, and releasing oclif CLIs. Buil…
 
 ### 🔍 代码审查与语义搜索
 
-_（对齐中：按匹配能力分组补锚点）_
+- [graphiti](#getzepgraphiti-28k-) — Build Real-Time Knowledge Graphs for AI Agents
+- [code-review-graph](#tirth8205code-review-graph-19k-) — Local-first code intelligence graph for MCP and CLI. Builds …
+- [networkx](#networkxnetworkx-17k-) — Network Analysis in Python
+- [open-code-review](#alibabaopen-code-review-97k-) — Open-source & free — Battle-tested at Alibaba's scale. Hybri…
+- [semble](#minishlabsemble-55k-) — Fast and Accurate Code Search for Agents. Uses ~98% fewer to…
+- [RepoAgent](#openbmbrepoagent-996-) — 代码仓库 Agent，自动分析与代码交互
+- [archguard](#archguardarchguard-668-) — 架构治理平台，代码架构分析与可视化
+
 
 ---
 
