@@ -12,7 +12,7 @@
 01. [safishamsi/graphify (75k ⭐)](#1-safishamsigraphify-75k-)
 02. [Egonex-AI/Understand-Anything (70k ⭐)](#2-egonex-aiunderstand-anything-70k-)
 03. [upstash/context7 (58k ⭐)](#3-upstashcontext7-58k-)
-04. [colbymchenry/codegraph (56k ⭐)](#4-colbymchenrycodegraph-56k-)
+04. [colbymchenry/codegraph (57k ⭐)](#4-colbymchenrycodegraph-57k-)
 05. [HKUDS/CLI-Anything (44k ⭐)](#5-hkudscli-anything-44k-)
 06. [abhigyanpatwari/GitNexus (43k ⭐)](#6-abhigyanpatwarigitnexus-43k-)
 07. [swagger-api/swagger-ui (29k ⭐)](#7-swagger-apiswagger-ui-29k-)
@@ -41,7 +41,7 @@
 ## 1. safishamsi/graphify (75k ⭐)
 
 **🔗** https://github.com/safishamsi/graphify  
-**🍴** Fork 7.5k | **🔄** Updated 2026-06-30  
+**🍴** Fork 7.5k | **🔄** Updated 2026-07-01  
 **👤** Safi (safishamsi) — 伦敦 AI 工程师，伯明翰大学数据科学硕士（Distinction），专注医疗 AI 与知识图谱
 
 > AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PDF、图片、视频——映射为可查询的知识图谱。产出三个文件：`graph.html`（交互式节点图）、`GRAPH_REPORT.md`（关键概念与关联分析）、`graph.json`（完整图谱数据）。还可通过 `graphify export callflow-html` 生成带 Mermaid 调用流图的架构页面。支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI、GitHub Copilot CLI、Aider、OpenClaw 等 15+ 主流 Agent 工具。PyPI 包名 `graphifyy`，通过 `uv tool install graphifyy` 安装。
@@ -74,7 +74,7 @@
 
 ---
 
-## 4. colbymchenry/codegraph (56k ⭐)
+## 4. colbymchenry/codegraph (57k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
 **🍴** Fork 3.5k | **🔄** Updated 2026-06-30  
@@ -113,7 +113,7 @@
 ## 7. swagger-api/swagger-ui (29k ⭐)
 
 **🔗** https://github.com/swagger-api/swagger-ui  
-**🍴** Fork 9.3k | **🔄** Updated 2026-06-30  
+**🍴** Fork 9.3k | **🔄** Updated 2026-07-01  
 **👤** SmartBear / Swagger 团队 — API 工具链行业标准制定者
 
 > 从 Swagger/OpenAPI 规范自动生成交互式 API 文档界面。提供在线 "Try it out" 试用 API 调用、查看请求/响应模型、参数说明等功能，是 API 文档可视化的事实标准，几乎所有 RESTful 项目的标配。
@@ -125,7 +125,7 @@
 ## 8. google/python-fire (28k ⭐)
 
 **🔗** https://github.com/google/python-fire  
-**🍴** Fork 1.5k | **🔄** Updated 2026-04-01  
+**🍴** Fork 1.5k | **🔄** Updated 2026-07-01  
 **👤** Google — Python Fire 是 Google 开源的 CLI 生成库
 
 > 从任意 Python 对象自动生成命令行接口。无需装饰器、参数定义或配置文件，直接将函数、类、模块、字典甚至对象实例转为完整可用的 CLI——包括子命令、参数推断、帮助文档。是最快的"代码→CLI"转化路径。
@@ -233,7 +233,7 @@
 ## 17. alibaba/open-code-review (9.7k ⭐)
 
 **🔗** https://github.com/alibaba/open-code-review  
-**🍴** Fork 630 | **🔄** Updated 2026-07-01  
+**🍴** Fork 631 | **🔄** Updated 2026-07-01  
 **👤** 阿里巴巴 — 源自阿里内部官方 AI 代码审查助手，服务数万开发者，识别百万级代码缺陷
 
 > 开源 AI 代码审查 CLI。读取 Git diff，通过具备工具调用能力的 Agent 将变更文件发送给可配置 LLM，生成行级精度的结构化审查意见。核心设计：**确定性工程 × Agent 混合架构**——对不能出错的审查步骤用工程逻辑硬约束（精准文件选择、智能文件打包、细粒度规则匹配、外部定位与反思模块），对动态决策用 Agent（场景化提示词与工具集）。支持 workspace 模式、分支范围对比、单 commit 审查。可集成到 Claude Code（Plugin/Skill）、Codex 等编码 Agent 作为 slash command。支持 CI/CD 集成（GitHub Actions / GitLab CI），提供阿里官方规则集（NPE、线程安全、XSS、SQL 注入等）。Go 语言实现，通过 NPM 分发多平台二进制。
@@ -281,7 +281,7 @@
 ## 21. joernio/joern (3.3k ⭐)
 
 **🔗** https://github.com/joernio/joern  
-**🍴** Fork 423 | **🔄** Updated 2026-06-30  
+**🍴** Fork 423 | **🔄** Updated 2026-07-01  
 **👤** joern.io — 代码属性图领域开创者（源于 Saarland 大学研究）
 
 > 开源代码分析平台，用于分析源码、字节码和二进制可执行文件。核心概念是**代码属性图（CPG）**——将 AST、控制流图、数据流图统一为跨语言的单一可查询图结构，存储在自定义图数据库中。使用 Scala DSL 查询语言挖掘代码。支持 C/C++/Java/JavaScript/Python/Kotlin/Binary。目标是为漏洞发现和静态程序分析研究提供基础工具。交互式 REPL 界面，Docker 部署支持，可作为服务器模式运行。
@@ -293,7 +293,7 @@
 ## 22. Redocly/redocly-cli (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
-**🍴** Fork 221 | **🔄** Updated 2026-06-30  
+**🍴** Fork 221 | **🔄** Updated 2026-07-01  
 **👤** Redocly — API 文档与设计平台公司
 
 > 让 OpenAPI 开发变得简单的 CLI 工具。对任意标准进行 lint/校验，生成精美交互文档，预览 API 定义，打包多文件 OpenAPI 规范。适合在 API 提取后进行规范化校验和文档渲染。
@@ -305,7 +305,7 @@
 ## 23. FSoft-AI4Code/CodeWiki (1.3k ⭐)
 
 **🔗** https://github.com/FSoft-AI4Code/CodeWiki  
-**🍴** Fork 200 | **🔄** Updated 2026-06-29  
+**🍴** Fork 201 | **🔄** Updated 2026-06-29  
 **👤** FSoft AI4Code — 越南 FPT Software 旗下 AI 代码研究团队
 
 > ACL 2026 论文开源项目——面向大规模代码库的整体结构化文档生成框架。采用动态规划启发的分层分解策略，支持任意规模代码库（实测 86K-1.4M LOC）。通过递归多 Agent 系统（cluster-analyzer → file-analyzer → doc-generator → validator）逐层分析：聚类→文件级分析→文档生成→交叉验证。支持 8 种编程语言（Python/Java/JavaScript/TypeScript/C++/C#/Go/Rust），可生成跨模块交互分析、Mermaid 架构图和可视化产物。支持多种 LLM 提供商（OpenAI/Anthropic/AWS Bedrock/Azure），也支持订阅模式（Claude Code/Codex CLI，无需 API key）。
@@ -317,7 +317,7 @@
 ## 24. sopaco/deepwiki-rs (1.2k ⭐)
 
 **🔗** https://github.com/sopaco/deepwiki-rs  
-**🍴** Fork 143 | **🔄** Updated 2026-05-16  
+**🍴** Fork 144 | **🔄** Updated 2026-05-16  
 **👤** sopaco（姜萌）— Rust 开发者，关注去中心化与自动化
 
 > 将代码变为清晰文档。几分钟内生成准确的技术文档和 AI 就绪的上下文——为人类团队和智能 Agent 完美结构化。Rust 实现的代码文档引擎，轻量高效。
@@ -355,7 +355,7 @@
 
 - [graphify](#1-safishamsigraphify-75k-) — AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PD…
 - [Understand-Anything](#2-egonex-aiunderstand-anything-70k-) — Claude Code 插件，通过多 Agent 管线分析整个项目，构建包含每个文件、函数、类和依赖的知识图谱，并提供交…
-- [codegraph](#4-colbymchenrycodegraph-56k-) — 预索引代码知识图谱，为 AI Agent 提供精准上下文
+- [codegraph](#4-colbymchenrycodegraph-57k-) — 预索引代码知识图谱，为 AI Agent 提供精准上下文
 - [GitNexus](#6-abhigyanpatwarigitnexus-43k-) — 为 Agent 上下文构建"代码神经系统"
 - [tree-sitter](#11-tree-sittertree-sitter-26k-) — 增量解析器生成工具与解析库——几乎所有现代代码分析工具的底层基石
 - [code-review-graph](#12-tirth8205code-review-graph-19k-) — 停止烧 Token，开始智能审查
