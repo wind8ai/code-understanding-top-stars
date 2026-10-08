@@ -3,21 +3,21 @@
 **中文** | [English](./README.en.md)
 
 > 代码理解工具精选 — 架构梳理 · API 提取 · CLI 转化 · 模块拆解  
-> 来源：[wind8ai 的 code-understanding 列表](https://github.com/stars/wind8ai/lists/code-understanding) · 更新：2026-10-06
+> 来源：[wind8ai 的 code-understanding 列表](https://github.com/stars/wind8ai/lists/code-understanding) · 更新：2026-10-08
 
 ---
 
 ## 目录
 
-01. [Graphify-Labs/graphify (124k ⭐)](#1-graphify-labsgraphify-124k-)
-02. [Egonex-AI/Understand-Anything (85k ⭐)](#2-egonex-aiunderstand-anything-85k-)
+01. [Graphify-Labs/graphify (125k ⭐)](#1-graphify-labsgraphify-125k-)
+02. [Egonex-AI/Understand-Anything (86k ⭐)](#2-egonex-aiunderstand-anything-86k-)
 03. [colbymchenry/codegraph (73k ⭐)](#3-colbymchenrycodegraph-73k-)
 04. [upstash/context7 (63k ⭐)](#4-upstashcontext7-63k-)
 05. [HKUDS/CLI-Anything (52k ⭐)](#5-hkudscli-anything-52k-)
 06. [abhigyanpatwari/GitNexus (48k ⭐)](#6-abhigyanpatwarigitnexus-48k-)
 07. [alibaba/open-code-review (44k ⭐)](#7-alibabaopen-code-review-44k-)
 08. [tirth8205/code-review-graph (32k ⭐)](#8-tirth8205code-review-graph-32k-)
-09. [getzep/graphiti (31k ⭐)](#9-getzepgraphiti-31k-)
+09. [getzep/graphiti (32k ⭐)](#9-getzepgraphiti-32k-)
 10. [swagger-api/swagger-ui (29k ⭐)](#10-swagger-apiswagger-ui-29k-)
 11. [google/python-fire (28k ⭐)](#11-googlepython-fire-28k-)
 12. [tree-sitter/tree-sitter (27k ⭐)](#12-tree-sittertree-sitter-27k-)
@@ -30,20 +30,20 @@
 19. [MinishLab/semble (6.2k ⭐)](#19-minishlabsemble-62k-)
 20. [vitali87/code-graph-rag (5.2k ⭐)](#20-vitali87code-graph-rag-52k-)
 21. [AIDotNet/OpenDeepWiki (3.6k ⭐)](#21-aidotnetopendeepwiki-36k-)
-22. [joernio/joern (3.5k ⭐)](#22-joerniojoern-35k-)
+22. [joernio/joern (3.6k ⭐)](#22-joerniojoern-36k-)
 23. [sopaco/deepwiki-rs (3.1k ⭐)](#23-sopacodeepwiki-rs-31k-)
 24. [FSoft-AI4Code/CodeWiki (1.8k ⭐)](#24-fsoft-ai4codecodewiki-18k-)
 25. [Redocly/redocly-cli (1.5k ⭐)](#25-redoclyredocly-cli-15k-)
 26. [OpenBMB/RepoAgent (1.1k ⭐)](#26-openbmbrepoagent-11k-)
 27. [archguard/archguard (677 ⭐)](#27-archguardarchguard-677-)
-28. [unclebob/uml-viewer (394 ⭐)](#28-unclebobuml-viewer-394-)
+28. [unclebob/uml-viewer (396 ⭐)](#28-unclebobuml-viewer-396-)
 
 ---
 
-## 1. Graphify-Labs/graphify (124k ⭐)
+## 1. Graphify-Labs/graphify (125k ⭐)
 
 **🔗** https://github.com/Graphify-Labs/graphify  
-**🍴** Fork 12k | **🔄** Updated 2026-10-05  
+**🍴** Fork 12k | **🔄** Updated 2026-10-07  
 **👤** Safi (safishamsi) — 伦敦 AI 工程师，伯明翰大学数据科学硕士（Distinction），专注医疗 AI 与知识图谱
 
 > AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PDF、图片、视频——映射为可查询的知识图谱。产出三个文件：`graph.html`（交互式节点图）、`GRAPH_REPORT.md`（关键概念与关联分析）、`graph.json`（完整图谱数据）。还可通过 `graphify export callflow-html` 生成带 Mermaid 调用流图的架构页面。支持 Claude Code、Codex、OpenCode、Cursor、Gemini CLI、GitHub Copilot CLI、Aider、OpenClaw 等 15+ 主流 Agent 工具。PyPI 包名 `graphifyy`，通过 `uv tool install graphifyy` 安装。
@@ -52,7 +52,7 @@
 
 ---
 
-## 2. Egonex-AI/Understand-Anything (85k ⭐)
+## 2. Egonex-AI/Understand-Anything (86k ⭐)
 
 **🔗** https://github.com/Egonex-AI/Understand-Anything  
 **🍴** Fork 7.2k | **🔄** Updated 2026-10-06  
@@ -67,7 +67,7 @@
 ## 3. colbymchenry/codegraph (73k ⭐)
 
 **🔗** https://github.com/colbymchenry/codegraph  
-**🍴** Fork 4.7k | **🔄** Updated 2026-10-05  
+**🍴** Fork 4.7k | **🔄** Updated 2026-10-07  
 **👤** Colby McHenry — 15+ 年软件开发经验的独立开发者
 
 > 预索引代码知识图谱，为 AI Agent 提供精准上下文。100% 本地运行，无需服务器、无需 API key。支持 Claude Code、Codex、Gemini CLI、Cursor、OpenCode、AntiGravity、Kiro、Hermes Agent 等主流平台。通过预建索引减少 token 消耗和工具调用次数，让 AI 更高效地理解代码库结构。
@@ -79,7 +79,7 @@
 ## 4. upstash/context7 (63k ⭐)
 
 **🔗** https://github.com/upstash/context7  
-**🍴** Fork 3.1k | **🔄** Updated 2026-10-05  
+**🍴** Fork 3.1k | **🔄** Updated 2026-10-07  
 **👤** Upstash — Serverless Data Platform 公司，提供 Redis/向量数据库/消息队列等云服务
 
 > 为 LLM 和 AI 代码编辑器提供最新代码文档的上下文平台。解决 LLM 训练数据过时导致的代码幻觉问题——不再生成过时 API 和已弃用的用法。通过 MCP 服务器集成到 Cursor、Claude Code、Windsurf 等 AI 编辑器中，在提示词中加入 `use context7` 即可自动拉取目标库的最新文档和代码示例，注入 LLM 上下文。支持数千个开源库的实时文档索引。
@@ -103,7 +103,7 @@
 ## 6. abhigyanpatwari/GitNexus (48k ⭐)
 
 **🔗** https://github.com/abhigyanpatwari/GitNexus  
-**🍴** Fork 5.2k | **🔄** Updated 2026-10-05  
+**🍴** Fork 5.2k | **🔄** Updated 2026-10-07  
 **👤** Abhigyan Patwari (Akon Labs) — 代码智能引擎开发者
 
 > 为 Agent 上下文构建"代码神经系统"。将任意代码库索引为知识图谱——覆盖每个依赖、调用链、聚簇和执行流——然后通过智能工具暴露给 AI Agent，使其不再遗漏代码。提供两种使用模式：**CLI + MCP**（`npm install -g gitnexus`，本地索引仓库，通过 MCP 服务器连接 Cursor/Claude Code/Codex/Windsurf/OpenCode 等 Agent，使用 LadybugDB 持久化存储和 Tree-sitter 原生解析）和 **Web UI**（浏览器端可视化图谱探索 + AI 对话）。Bridge 模式可将两者打通。自称"Like DeepWiki, but deeper"——DeepWiki 帮你理解代码，GitNexus 让你分析代码，因为知识图谱追踪每一层关系而非仅描述。企业版支持 PR 爆炸半径分析、自动更新代码 Wiki、多仓库统一图谱。
@@ -127,7 +127,7 @@
 ## 8. tirth8205/code-review-graph (32k ⭐)
 
 **🔗** https://github.com/tirth8205/code-review-graph  
-**🍴** Fork 2.9k | **🔄** Updated 2026-09-18  
+**🍴** Fork 2.9k | **🔄** Updated 2026-10-06  
 **👤** Tirth Patel — 代码图谱与 Token 优化领域开发者
 
 > 停止烧 Token，开始智能审查。为 AI 编码工具构建本地代码知识图谱——用 Tree-sitter 解析仓库为 AST，存储为节点（函数/类/import）与边（调用/继承/测试覆盖）的图结构，通过 MCP 协议向 AI 助手提供精确上下文，使其只读取真正相关的代码。核心能力：**爆炸半径分析**——文件变更时追踪每个调用者、依赖方和相关测试，AI 只读这些文件而非扫描全项目。增量更新极快（2900 文件项目 <2秒），大型 Monorepo 中 27,700+ 文件被排除在审查上下文外，实际只读约 15 个文件。实测代码审查省 6.8× Token，日常编码任务省高达 49× Token。支持 Claude Code/Codex/Cursor/Gemini CLI/Kiro/GitHub Copilot 等平台，一条命令自动检测并配置所有支持的 AI 工具。
@@ -136,10 +136,10 @@
 
 ---
 
-## 9. getzep/graphiti (31k ⭐)
+## 9. getzep/graphiti (32k ⭐)
 
 **🔗** https://github.com/getzep/graphiti  
-**🍴** Fork 3.2k | **🔄** Updated 2026-10-05  
+**🍴** Fork 3.2k | **🔄** Updated 2026-10-07  
 **👤** getzep — 开源开发者
 
 > 为 AI Agent 构建实时知识图谱，支持时序记忆与动态关系更新。常用于 RAG、长期上下文与 agent 记忆层。
@@ -175,7 +175,7 @@
 ## 12. tree-sitter/tree-sitter (27k ⭐)
 
 **🔗** https://github.com/tree-sitter/tree-sitter  
-**🍴** Fork 2.9k | **🔄** Updated 2026-10-05  
+**🍴** Fork 2.9k | **🔄** Updated 2026-10-07  
 **👤** Tree-sitter Community — 由 Max Brunsfeld（前 GitHub Atom 团队）创建，现为独立开源项目
 
 > 增量解析器生成工具与解析库——几乎所有现代代码分析工具的底层基石。为源文件构建具体语法树（CST），并在源文件编辑时高效增量更新。设计目标：通用（能解析任意编程语言，200+ 语言 grammar 可用）、极快（每次击键都能解析）、鲁棒（即使存在语法错误仍能产出有用结果）、零依赖（纯 C 运行时，可嵌入任何应用）。提供 Rust/Wasm/Node/Python 等多语言绑定和 CLI 工具。GitNexus、graphify、Aider、Codebase-Memory 等上层工具均依赖 tree-sitter 做底层解析。是构建自定义代码理解管道的首选基础设施。
@@ -187,7 +187,7 @@
 ## 13. OpenAPITools/openapi-generator (27k ⭐)
 
 **🔗** https://github.com/OpenAPITools/openapi-generator  
-**🍴** Fork 7.7k | **🔄** Updated 2026-10-05  
+**🍴** Fork 7.7k | **🔄** Updated 2026-10-08  
 **👤** OpenAPI Tools 社区 — OpenAPI 生态核心项目
 
 > 给定 OpenAPI Spec（v2/v3），自动生成 API 客户端 SDK、服务端桩代码、文档和配置。支持 50+ 编程语言/框架，涵盖 Java/Python/TypeScript/Go/Ruby/C#/Rust 等主流语言。是 API 规范驱动开发的工业级标准工具，也是从 OpenAPI Spec 生成 CLI 客户端的首选方案。
@@ -211,7 +211,7 @@
 ## 15. networkx/networkx (17k ⭐)
 
 **🔗** https://github.com/networkx/networkx  
-**🍴** Fork 3.6k | **🔄** Updated 2026-10-02  
+**🍴** Fork 3.6k | **🔄** Updated 2026-10-06  
 **👤** networkx — 开源开发者
 
 > Python 生态最主流的图论与复杂网络分析库，提供图算法、生成与可视化能力，常被代码图谱工具用作底层数据结构。
@@ -223,7 +223,7 @@
 ## 16. semgrep/semgrep (17k ⭐)
 
 **🔗** https://github.com/semgrep/semgrep  
-**🍴** Fork 1.1k | **🔄** Updated 2026-10-06  
+**🍴** Fork 1.1k | **🔄** Updated 2026-10-08  
 **👤** Semgrep Inc.（前 r2c / Return To Corp）— 代码安全分析公司
 
 > 面向代码的语义 grep。用**看起来像源代码的模式**查找 Bug 变体——不需要 AST、正则表达式或复杂 DSL。支持 30+ 语言（Apex/Bash/C/C++/C#/Go/Java/JavaScript/Kotlin/Python/Ruby/Rust/Swift/TypeScript 等）。用 `grep "2"` 只能匹配字符串 "2"，而 Semgrep 能匹配 `x=1; y=x+1` 中语义等价的 "2"。可自定义规则批量提取代码中的 API 调用模式、路由定义、安全漏洞。开源版限单函数/文件分析，企业版支持跨文件跨函数数据流分析。
@@ -235,7 +235,7 @@
 ## 17. github/codeql (10k ⭐)
 
 **🔗** https://github.com/github/codeql  
-**🍴** Fork 2.1k | **🔄** Updated 2026-10-06  
+**🍴** Fork 2.1k | **🔄** Updated 2026-10-07  
 **👤** GitHub — 全球最大代码托管平台的官方分析引擎
 
 > 代码查询语言与分析平台，驱动 GitHub Advanced Security 的代码扫描功能。将代码视为数据库，用类 SQL 的查询语言（QL）精准定位代码中的模式、漏洞和结构关系。包含标准库和数千个预置查询，支持 C/C++/C#/Go/Java/JavaScript/Python/Ruby/Swift。提供 VS Code 扩展、CLI 工具和 CI/CD 集成。可编写自定义查询提取 API 端点定义、路由表、调用链等结构化信息。开源用于开源项目分析，闭源项目需商业授权。
@@ -259,7 +259,7 @@
 ## 19. MinishLab/semble (6.2k ⭐)
 
 **🔗** https://github.com/MinishLab/semble  
-**🍴** Fork 273 | **🔄** Updated 2026-10-05  
+**🍴** Fork 274 | **🔄** Updated 2026-10-07  
 **👤** Minish Lab — 两人开源实验室（pringled & stephantul），专注 NLP 与高效模型
 
 > 面向 Agent 的快速精准代码搜索工具。比 grep+read 减少约 98% 的 token 消耗。为 AI 编码助手提供语义级代码搜索能力，让 Agent 能在大型代码库中精确定位相关代码片段，而不是暴力遍历文件。
@@ -271,7 +271,7 @@
 ## 20. vitali87/code-graph-rag (5.2k ⭐)
 
 **🔗** https://github.com/vitali87/code-graph-rag  
-**🍴** Fork 699 | **🔄** Updated 2026-10-06  
+**🍴** Fork 699 | **🔄** Updated 2026-10-08  
 **👤** Vitali Avagyan（vitali87）— Code-Graph-RAG 作者，专注系统与开发者工具
 
 > 面向多语言 monorepo 的代码知识图谱与 RAG 工具，使用 Tree-sitter 解析代码并将结构关系写入 Memgraph，支持自然语言查询、语义检索、结构化修改和调用关系分析。
@@ -283,7 +283,7 @@
 ## 21. AIDotNet/OpenDeepWiki (3.6k ⭐)
 
 **🔗** https://github.com/AIDotNet/OpenDeepWiki  
-**🍴** Fork 465 | **🔄** Updated 2026-10-04  
+**🍴** Fork 466 | **🔄** Updated 2026-10-07  
 **👤** AIDotNet — .NET AI 生态开源组织
 
 > DeepWiki 开源版，基于 .NET 9 和 Semantic Kernel 开发。AI 驱动的代码知识管理平台：自动分析代码结构、理解核心概念、生成文档和知识图谱。支持 GitHub/GitLab/AtomGit/Gitee/Gitea 等多平台仓库，分钟级转化为知识库。自动生成 Mermaid 代码结构图。支持自定义 AI 模型和 API、多数据库（SQLite/PostgreSQL/MySQL/SqlServer）、多语言界面。提供对话式交互深入理解代码、MCP 协议集成（可作为 MCPServer 供其他 AI 模型调用）、SEO 友好的 Next.js 前端、数据微调平台。支持上传 ZIP/本地文件。
@@ -292,10 +292,10 @@
 
 ---
 
-## 22. joernio/joern (3.5k ⭐)
+## 22. joernio/joern (3.6k ⭐)
 
 **🔗** https://github.com/joernio/joern  
-**🍴** Fork 467 | **🔄** Updated 2026-10-05  
+**🍴** Fork 468 | **🔄** Updated 2026-10-07  
 **👤** joern.io — 代码属性图领域开创者（源于 Saarland 大学研究）
 
 > 开源代码分析平台，用于分析源码、字节码和二进制可执行文件。核心概念是**代码属性图（CPG）**——将 AST、控制流图、数据流图统一为跨语言的单一可查询图结构，存储在自定义图数据库中。使用 Scala DSL 查询语言挖掘代码。支持 C/C++/Java/JavaScript/Python/Kotlin/Binary。目标是为漏洞发现和静态程序分析研究提供基础工具。交互式 REPL 界面，Docker 部署支持，可作为服务器模式运行。
@@ -307,7 +307,7 @@
 ## 23. sopaco/deepwiki-rs (3.1k ⭐)
 
 **🔗** https://github.com/sopaco/deepwiki-rs  
-**🍴** Fork 298 | **🔄** Updated 2026-09-14  
+**🍴** Fork 296 | **🔄** Updated 2026-09-14  
 **👤** sopaco（姜萌）— Rust 开发者，关注去中心化与自动化
 
 > 将代码变为清晰文档。几分钟内生成准确的技术文档和 AI 就绪的上下文——为人类团队和智能 Agent 完美结构化。Rust 实现的代码文档引擎，轻量高效。
@@ -319,7 +319,7 @@
 ## 24. FSoft-AI4Code/CodeWiki (1.8k ⭐)
 
 **🔗** https://github.com/FSoft-AI4Code/CodeWiki  
-**🍴** Fork 266 | **🔄** Updated 2026-10-02  
+**🍴** Fork 267 | **🔄** Updated 2026-10-07  
 **👤** FSoft AI4Code — 越南 FPT Software 旗下 AI 代码研究团队
 
 > ACL 2026 论文开源项目——面向大规模代码库的整体结构化文档生成框架。采用动态规划启发的分层分解策略，支持任意规模代码库（实测 86K-1.4M LOC）。通过递归多 Agent 系统（cluster-analyzer → file-analyzer → doc-generator → validator）逐层分析：聚类→文件级分析→文档生成→交叉验证。支持 8 种编程语言（Python/Java/JavaScript/TypeScript/C++/C#/Go/Rust），可生成跨模块交互分析、Mermaid 架构图和可视化产物。支持多种 LLM 提供商（OpenAI/Anthropic/AWS Bedrock/Azure），也支持订阅模式（Claude Code/Codex CLI，无需 API key）。
@@ -331,7 +331,7 @@
 ## 25. Redocly/redocly-cli (1.5k ⭐)
 
 **🔗** https://github.com/Redocly/redocly-cli  
-**🍴** Fork 228 | **🔄** Updated 2026-10-05  
+**🍴** Fork 228 | **🔄** Updated 2026-10-08  
 **👤** Redocly — API 文档与设计平台公司
 
 > 让 OpenAPI 开发变得简单的 CLI 工具。对任意标准进行 lint/校验，生成精美交互文档，预览 API 定义，打包多文件 OpenAPI 规范。适合在 API 提取后进行规范化校验和文档渲染。
@@ -364,10 +364,10 @@
 
 ---
 
-## 28. unclebob/uml-viewer (394 ⭐)
+## 28. unclebob/uml-viewer (396 ⭐)
 
 **🔗** https://github.com/unclebob/uml-viewer  
-**🍴** Fork 40 | **🔄** Updated 2026-10-02  
+**🍴** Fork 42 | **🔄** Updated 2026-10-07  
 **👤** Robert C. Martin（Uncle Bob）—《Clean Code》作者
 
 > 基于 Quil 与 EDN 的交互式 UML 查看器，可从组件逐层钻取到源代码，叠加测试覆盖、CRAP 和 mutation 指标，并与 Agent 协作预演架构调整。
@@ -379,8 +379,8 @@
 
 ### 🏗️ 代码图谱与架构分析
 
-- [graphify](#1-graphify-labsgraphify-124k-) — AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PD…
-- [Understand-Anything](#2-egonex-aiunderstand-anything-85k-) — Claude Code 插件，通过多 Agent 管线分析整个项目，构建包含每个文件、函数、类和依赖的知识图谱，并提供交…
+- [graphify](#1-graphify-labsgraphify-125k-) — AI 编码助手 Skill，在 AI Agent 中输入 `/graphify .` 即可将整个项目——代码、文档、PD…
+- [Understand-Anything](#2-egonex-aiunderstand-anything-86k-) — Claude Code 插件，通过多 Agent 管线分析整个项目，构建包含每个文件、函数、类和依赖的知识图谱，并提供交…
 - [codegraph](#3-colbymchenrycodegraph-73k-) — 预索引代码知识图谱，为 AI Agent 提供精准上下文
 - [GitNexus](#6-abhigyanpatwarigitnexus-48k-) — 为 Agent 上下文构建"代码神经系统"
 - [code-review-graph](#8-tirth8205code-review-graph-32k-) — 停止烧 Token，开始智能审查
@@ -388,7 +388,7 @@
 - [semgrep](#16-semgrepsemgrep-17k-) — 面向代码的语义 grep
 - [codeql](#17-githubcodeql-10k-) — 代码查询语言与分析平台，驱动 GitHub Advanced Security 的代码扫描功能
 - [code-graph-rag](#20-vitali87code-graph-rag-52k-) — 面向多语言 monorepo 的代码知识图谱与 RAG 工具，使用 Tree-sitter 解析代码并将结构关系写入 M…
-- [joern](#22-joerniojoern-35k-) — 开源代码分析平台，用于分析源码、字节码和二进制可执行文件
+- [joern](#22-joerniojoern-36k-) — 开源代码分析平台，用于分析源码、字节码和二进制可执行文件
 
 ### 📝 API 提取与文档生成
 
@@ -412,12 +412,12 @@
 
 - [open-code-review](#7-alibabaopen-code-review-44k-) — 开源 AI 代码审查 CLI
 - [code-review-graph](#8-tirth8205code-review-graph-32k-) — 停止烧 Token，开始智能审查
-- [graphiti](#9-getzepgraphiti-31k-) — 为 AI Agent 构建实时知识图谱，支持时序记忆与动态关系更新
+- [graphiti](#9-getzepgraphiti-32k-) — 为 AI Agent 构建实时知识图谱，支持时序记忆与动态关系更新
 - [networkx](#15-networkxnetworkx-17k-) — Python 生态最主流的图论与复杂网络分析库，提供图算法、生成与可视化能力，常被代码图谱工具用作底层数据结构
 - [semble](#19-minishlabsemble-62k-) — 面向 Agent 的快速精准代码搜索工具
 - [RepoAgent](#26-openbmbrepoagent-11k-) — LLM 驱动的仓库 Agent，帮助开发者与团队快速生成文档、梳理模块结构并理解代码库全貌
 - [archguard](#27-archguardarchguard-677-) — 架构治理工作台，支持容器/组件/代码多级架构分析、架构适应度函数与系统依赖洞察，面向架构梳理与治理场景
-- [uml-viewer](#28-unclebobuml-viewer-394-) — 基于 Quil 与 EDN 的交互式 UML 查看器，可从组件逐层钻取到源代码，叠加测试覆盖、CRAP 和 mutati…
+- [uml-viewer](#28-unclebobuml-viewer-396-) — 基于 Quil 与 EDN 的交互式 UML 查看器，可从组件逐层钻取到源代码，叠加测试覆盖、CRAP 和 mutati…
 
 
 ---
@@ -437,4 +437,4 @@
 
 ---
 
-*由 wind8 整理 | 2026-10-06*
+*由 wind8 整理 | 2026-10-08*
